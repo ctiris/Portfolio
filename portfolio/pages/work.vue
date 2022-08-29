@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="long-div">
-        <p>hi</p>
     </div>
   </div>
 </template>
@@ -9,7 +8,7 @@
 <style>
 .long-div {
     border-width: 100px;
-    border-color:blue;
+    border-color: green;
     border: 10px;
     border-style: solid;
     padding-top: 1100px;
@@ -17,6 +16,6 @@
 }
 
 p {
-    text-decoration: underline;
+    text-decoration: none;
 }
 </style>
