@@ -4,13 +4,21 @@
     <nav class="navbar is-fixed-top">
       <div class="container is-fluid">
         <div class="navbar-brand">
-          <NuxtLink to="work" class="navbar-item">Iris Chang</NuxtLink>
+          <NuxtLink to="work" class="navbar-item">
+            <top-logo>Iris Chang</top-logo>
+          </NuxtLink>
         </div>
         <div class="navbar-menu">
           <div class="navbar-start">
-              <NuxtLink to="/work" class="menu-link navbar-item">Work</NuxtLink>
-              <NuxtLink to="/me" class="menu-link navbar-item">Me</NuxtLink>
-              <NuxtLink to="/play" class="menu-link navbar-item">Play</NuxtLink>
+            <NuxtLink to="/work" class="menu-link navbar-item">
+              <top-link>Work</top-link>
+            </NuxtLink>
+            <NuxtLink to="/me" class="menu-link navbar-item">
+              <top-link>Me</top-link>
+            </NuxtLink>
+            <NuxtLink to="/play" class="menu-link navbar-item">
+              <top-link>Play</top-link>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -20,6 +28,8 @@
 
     <NuxtPage />
     <footer class="footer">
+ 
+      
       <div class="content has-text-centered">
         <p>
           <a href="iristchang@g.ucla.edu">iristchang@g.ucla.edu</a>
@@ -31,13 +41,33 @@
     </footer>
 
 
- 
+
   </div>
 </template>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+
+.top-logo {
+  color: black;
+}
+
+
+.top-logo:hover {
+  color: orangered;
+  transition: color 0.2s;
+}
+
+.top-link {
+  color: rgba(0, 0, 0, 0.5);
+  background: none;
+}
+
+.top-link:hover {
+  color: orangered;
+  background: none;
+}
 
 
 
@@ -55,12 +85,14 @@
 .router-link-active {
   font-family: 'Inter', sans-serif;
   color: black;
+  background: none;
 }
 
 
 .navbar {
   display: flex;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
 
 }
@@ -85,25 +117,6 @@
   letter-spacing: -0.05em;
 }
 
-.is-4 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
-  letter-spacing: -0.03em;
-}
-
-
-.is-6 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 8px;
-  line-height: 38px;
-  letter-spacing: 0.05em;
-}
-
 
 .content {
   font-family: 'Inter';
@@ -118,6 +131,12 @@
 #me {
   margin-left: 70px;
   margin-right: 70px;
+}
+
+
+.footer{
+
+padding-top: 6rem;
 }
 </style>
 

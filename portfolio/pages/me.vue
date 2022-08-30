@@ -3,7 +3,9 @@
 
         <div class="head-text-container">
             <p class="head-text">
-            This is who I am:
+                <a href=/me>
+                    <underline>This</underline>
+                </a> is who I am:
             </p>
         </div>
 
@@ -17,15 +19,17 @@
                             <header>Lover of sunsets and white space</header>
                         </div>
 
-                        <div class="block">
+                        <div class="block-double">
                             <paragraph>I started out drawing traditional art, then transitioning to digital programs
                                 like Adobe Photoshop and Illustrator. Previously, I founded a <a
-                                    href="https://jgthms.com">small business</a>,
+                                    href="https://jgthms.com">
+                                    <underline>small business</underline>
+                                </a>,
                                 and now I’m creating multidisciplinary works
                                 with all my past experiences in mind.</paragraph>
                         </div>
 
-                        <div class="block">
+                        <div class="block-double">
                             <paragraph>Currently, I’m pursuing a B.A. in Design | Media Arts
                                 at UCLA, with a minor in Digital Humanities. I mainly practice UX/UI design, graphic
                                 design,
@@ -33,8 +37,12 @@
                         </div>
 
                         <div class="block">
-                            <paragraph>Say hello to me! <a href="https://jgthms.com">iristchang@g.ucla.edu</a> /
-                                <a href="https://jgthms.com">LinkedIn</a>
+                            <paragraph>Say hello to me! <a href="https://jgthms.com">
+                                    <underline>iristchang@g.ucla.edu</underline>
+                                </a> /
+                                <a href="https://jgthms.com">
+                                    <underline>LinkedIn</underline>
+                                </a>
                             </paragraph>
                         </div>
                     </div>
@@ -44,7 +52,14 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-1by1">
-                            <img src="me.png" alt="me">
+
+                            <nuxt-img 
+                            src="img/me.png"
+                            width= "400"
+                            height= "400"
+                            />
+
+
                         </figure>
                     </div>
 
@@ -97,7 +112,7 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-1by1">
-                            <img src="me.png" alt="me">
+                            <img src="img/fun.png" alt="fun">
                         </figure>
                     </div>
 
@@ -138,7 +153,11 @@
                             <paragraph>Redesigning the website of Bruin Entrepreneurs</paragraph>
                         </div>
                         <div class="block-double">
-                            <paragraph-light>Check it out <a href="https://jgthms.com">here</a></paragraph-light>
+                            <paragraph-light>Check it out <a href="https://jgthms.com">
+                                    <underline>
+                                        <grey>here</grey>
+                                    </underline>
+                                </a></paragraph-light>
                         </div>
 
 
@@ -154,6 +173,10 @@
             <div class="column is-half">
                 <div class="card">
                     <div class="card-content">
+                        <div class="block-double">
+                            <header>Currently...</header>
+                        </div>
+
                         <div class="block">
                             <subtitle>DOING</subtitle>
                         </div>
@@ -166,14 +189,23 @@
                             <paragraph>Curating Spotify playlists for every mood imaginable</paragraph>
                         </div>
                         <div class="block-double">
-                            <paragraph-light>Take a <a href="https://jgthms.com">listen</a>?</paragraph-light>
+                            <paragraph-light>Take a <a href="https://jgthms.com">
+                                    <underline>
+                                        <grey>listen</grey>
+                                    </underline>
+                                </a>?</paragraph-light>
                         </div>
 
                         <div class="block-none">
                             <paragraph>Watching TED Talks</paragraph>
                         </div>
                         <div class="block-double">
-                            <paragraph-light><a href="https://jgthms.com">This one</a> is a recent favorite</paragraph-light>
+                            <paragraph-light><a href="https://jgthms.com">
+                                    <underline>
+                                        <grey>This one</grey>
+                                    </underline>
+                                </a> is a recent favorite
+                            </paragraph-light>
                         </div>
 
 
@@ -181,7 +213,12 @@
                             <paragraph>Recreational reading!</paragraph>
                         </div>
                         <div class="block-double">
-                            <paragraph-light>Books I’ve got my <a href="https://jgthms.com">nose</a> in</paragraph-light>
+                            <paragraph-light>Books I’ve got my <a href="https://jgthms.com">
+                                    <underline>
+                                        <grey>nose</grey>
+                                    </underline>
+                                </a> in
+                            </paragraph-light>
                         </div>
                     </div>
                 </div>
@@ -209,27 +246,70 @@
                             <hr>
                         </div>
 
-                        <div class="block-none">
-                            <paragraph>Learning Blender and Cinema 4D</paragraph>
-                        </div>
-                        <div class="block-double">
-                            <paragraph-light>With the help of youtube tutorials</paragraph-light>
+
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/robotaki.png" alt="robotaki">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>Brooklyn ‘95</paragraph>
+                                    </div>
+                                    <div class="block-double">
+                                        <paragraph-light>by Robotaki, Mike Clay</paragraph-light>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="block-none">
-                            <paragraph>Redesigning the website of Bruin Entrepreneurs</paragraph>
-                        </div>
-                        <div class="block-double">
-                            <paragraph-light>Check it out here</paragraph-light>
+
+
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/oranges.png" alt="emotional oranges">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>West Coast Love</paragraph>
+                                    </div>
+                                    <div class="block-double">
+                                        <paragraph-light>by Emotional Oranges</paragraph-light>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
-                        <div class="block-none">
-                            <paragraph>Designing and producing jewelry samples</paragraph>
+
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/fkatwigs.png" alt="fka twigs">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>Good to Love</paragraph>
+                                    </div>
+
+                                    <paragraph-light>by FKA Twigs</paragraph-light>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="block-double">
-                            <paragraph-light>Shh...coming soon!</paragraph-light>
-                        </div>
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -244,27 +324,64 @@
                             <hr>
                         </div>
 
-                        <div class="block-none">
-                            <paragraph>Curating Spotify playlists for every mood imaginable</paragraph>
-                        </div>
-                        <div class="block-double">
-                            <paragraph-light>Take a listen?</paragraph-light>
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/hxh.png" alt="hunter x hunter">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>Hunter x Hunter</paragraph>
+                                    </div>
+                                    <div class="block-double">
+                                        <paragraph-light>(2011)</paragraph-light>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="block-none">
-                            <paragraph>Watching TED Talks</paragraph>
-                        </div>
-                        <div class="block-double">
-                            <paragraph-light>This one is a recent favorite</paragraph-light>
+
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/tokyogodfathers.png" alt="tokyo godfathers">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>Tokyo Godfathers</paragraph>
+                                    </div>
+                                    <div class="block-double">
+                                        <paragraph-light>(2003)</paragraph-light>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
-                        <div class="block-none">
-                            <paragraph>Recreational reading!</paragraph>
+
+                        <div class="card">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="img/imitationgame.png" alt="imitation game">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="block-none">
+                                        <paragraph>The Imitation Game</paragraph>
+                                    </div>
+
+                                    <paragraph-light>(2014)</paragraph-light>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="block-double">
-                            <paragraph-light>Books I’ve got my nose in</paragraph-light>
-                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -272,6 +389,11 @@
 
 
 
+        <div class="media-center">
+        <figure class="image is-32x32">
+          <img src="img/menuicon.png" alt="projects">
+        </figure>
+      </div>
 
 
 
@@ -279,6 +401,17 @@
 </template>
   
   <style>
+  .card {
+      box-shadow: none;
+  }
+  
+  .is-64x64 {
+      filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+  }
+  
+  .is-1by1 {
+      filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+  }
   
   .block:not(:last-child) {
       margin-bottom: 1.5rem;
@@ -289,32 +422,40 @@
   }
   
   .block-none {
-      margin-bottom: -0.3rem;
+      margin-bottom: -0.5rem;
   }
   
   .block-half {
       margin-bottom: 0rem;
   }
   
-a{
-    color: black;
-    text-decoration: underline;
+  grey {
+      color: rgba(0, 0, 0, 0.5);
+  }
+  
+  grey:hover {
+      color: black;
+  }
+  
+  underline {
+      color: black;
+      text-decoration: underline;
       text-decoration-style: dotted;
       text-decoration-thickness: 2px;
       text-decoration-color: rgba(0, 0, 0, 0.15);
       text-underline-offset: 6px;
-}
-
-a:hover{
-    color: black;
-    text-decoration: underline;
+  }
+  
+  underline:hover {
+      color: black;
+      text-decoration: underline;
       text-decoration-thickness: 2px;
       text-decoration-color: black;
       text-underline-offset: 6px;
       transition: text-decoration-color 0.5s;
-}
-
-
+  }
+  
+  
   hr {
       color: solid rgba(0, 0, 0, 0.15);
   }
@@ -328,17 +469,10 @@ a:hover{
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
-      font-size: 28px;
+      font-size: 32px;
       line-height: 38px;
       text-align: center;
       letter-spacing: -0.03em;
-    
-
-      text-decoration: underline;
-      text-decoration-style: dotted;
-      text-decoration-thickness: 2px;
-      text-decoration-color: rgba(0, 0, 0, 0.15);;
-      text-underline-offset: 6px;
   }
   
   
@@ -394,5 +528,9 @@ a:hover{
       line-height: 30px;
       letter-spacing: -0.03em;
       color: black;
+  }
+
+  .media-center{
+align-content: center;
   }
   </style>
