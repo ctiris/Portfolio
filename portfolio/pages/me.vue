@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="head-text-container">
-            <p class="head-text" style="padding-bottom: 350px">
+            <p class="head-text" style="padding-bottom: 400px">
                 <a href=/me>
                     <underline>This</underline>
                 </a> is who I am:
@@ -11,10 +11,10 @@
 
 
 
-        <div class="columns" id = "blur">
+        <div class="columns" id="blur">
             <div class="column is-half" style="padding-right: 180px">
                 <div class="card">
-                    <div class="card-content" id = "first-card">
+                    <div class="card-content" id="first-card">
                         <div class="block-double">
                             <header>Lover of sunsets and white space</header>
                         </div>
@@ -54,7 +54,8 @@
             </div>
             <div class="column is-half">
                 <div class="card">
-                    <div class="card-image" style="padding-left: 150px; padding-right: 150px; padding-top: 150px; padding-bottom: 150px">
+                    <div class="card-image"
+                        style="padding-left: 150px; padding-right: 150px; padding-top: 80px; padding-bottom: 150px">
                         <figure class="image is-1by1">
 
                             <img src="img/me.png" alt="me">
@@ -109,7 +110,8 @@
             </div>
             <div class="column is-half">
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image"
+                        style="padding-left: 150px; padding-right: 150px; padding-top: 40px; padding-bottom: 150px">
                         <figure class="image is-1by1">
                             <img src="img/fun.png" alt="fun">
                         </figure>
@@ -127,7 +129,7 @@
 
         <div class="columns">
             <div class="column is-half">
-                <div class="card">
+                <div class="card" style="padding-right: 80px">
                     <div class="card-content">
                         <div class="block-double">
                             <header>Currently...</header>
@@ -145,7 +147,7 @@
                             <paragraph>Learning Blender and Cinema 4D</paragraph>
                         </div>
                         <div class="block-double">
-                            <paragraph-light>With the help of youtube tutorials</paragraph-light>
+                            <paragraph-light>With the help of Youtube tutorials</paragraph-light>
                         </div>
 
                         <div class="block-none">
@@ -170,11 +172,8 @@
                 </div>
             </div>
             <div class="column is-half">
-                <div class="card">
+                <div class="card" style="padding-top: 85px; padding-right: 80px">
                     <div class="card-content">
-                        <div class="block-double">
-                            <header>Currently...</header>
-                        </div>
 
                         <div class="block">
                             <subtitle>DOING</subtitle>
@@ -235,7 +234,7 @@
 
         <div class="columns">
             <div class="column is-half">
-                <div class="card">
+                <div class="card" style="padding-right: 80px">
                     <div class="card-content">
                         <div class="block">
                             <subtitle>LISTENING</subtitle>
@@ -313,7 +312,7 @@
                 </div>
             </div>
             <div class="column is-half">
-                <div class="card">
+                <div class="card" style="padding-right: 80px">
                     <div class="card-content">
                         <div class="block">
                             <subtitle>WATCHING</subtitle>
@@ -388,11 +387,28 @@
 
 
 
-        <div class="media-center">
-        <figure class="image is-32x32">
-          <img src="img/menuicon.png" alt="projects">
-        </figure>
-      </div>
+
+
+
+
+
+
+        <div class="columns is-gapless">
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-32x32">
+                            <img src="img/menuicon.png" alt="Art School of SF Bay">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
 
 
 
@@ -402,27 +418,35 @@
 
 
 <script setup>
-    onMounted( () => { 
-      let blurMe = document.querySelector("#blur")
-    
-      let options = {
-        threshold: new Array(101).fill().map((_, idx) => idx/100)
-      }
-    
-      let observer = new IntersectionObserver((entries) => {
+onMounted(() => {
+    let blurMe = document.querySelector("#blur")
+
+    let options = {
+        threshold: new Array(101).fill().map((_, idx) => idx / 100)
+    }
+
+    let observer = new IntersectionObserver((entries) => {
         let intersectPercent = entries[0].intersectionRatio
-    
+
         let blurRate = (1 - Math.min(intersectPercent, 1)) * 4
         blurMe.style["filter"] = `blur(${blurRate}rem)`
-      }, options)
-      
-      observer.observe(document.querySelector("#first-card"))
-    })
-    </script>
+    }, options)
+
+    observer.observe(document.querySelector("#first-card"))
+})
+</script>
 
 
   
   <style>
+  .card-image:first-child img {
+      border-top-left-radius: 0rem !important;
+      border-top-right-radius: 0rem !important;
+      border-bottom-left-radius: 0rem !important;
+  border-bottom-right-radius: 0rem !important;
+  }
+  
+  
   .card {
       box-shadow: none;
   }
@@ -483,7 +507,7 @@
   }
   
   .head-text {
-
+  
       padding: 20%;
   
       font-family: 'Inter';
@@ -549,8 +573,8 @@
       letter-spacing: -0.03em;
       color: black;
   }
-
-  .media-center{
-align-content: center;
+  
+  .media-center {
+      align-content: center;
   }
   </style>

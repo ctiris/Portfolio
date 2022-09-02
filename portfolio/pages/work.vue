@@ -2,44 +2,41 @@
   <div>
     <div class="head-text-container">
       <p class="head-text">
-        Hey there! I’m <a href=/me><underline>Iris Chang</underline></a>, an undergraduate student at UCLA. I’m interested in <a href=/work><underline>UX
-          design</underline></a> and creating subtle
+        Hey there! I’m <a href=/me>
+          <underline>Iris Chang</underline>
+        </a>, an undergraduate student at UCLA. I’m interested in <a href=/work>
+          <underline>UX
+            design</underline>
+        </a> and creating subtle
         interfaces that are fun and spark joy.
       </p>
     </div>
+</div>
 
 
+<div>
 
-
-
-
-    <div class="columns is-gapless" id="blur" >
+    <div class="columns is-gapless is-multiline" id="blur">
       <div class="column is-one-third">
         <div class="card" id="first-card">
           <div class="card-image">
-            <figure class="image is-16by9">
-              <img src= "img/artschoolsfbay.png" alt ="Art School of SF Bay">
+            <figure class="image is-1by1">
+              <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-              <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                <p class="title is-4"><project-title>Project 1</project-title></p>
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
               </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-              <br>
             </div>
           </div>
         </div>
       </div>
-      <div class="column is-two-thirds" style="padding: none">
+      <div class="column is-two-thirds">
         <div class="card">
           <div class="card-image">
-            <figure class="image is-16by9">
+            <figure class="image is-2by1">
               <img src="img/trek.png" alt="trek">
             </figure>
           </div>
@@ -47,19 +44,56 @@
             <div class="media">
               <div class="media-content">
                 <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                
-                <p class="title is-4"><project-title>Project 2</project-title></p>
               </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus nec iaculis mauris.
-              <br>
             </div>
           </div>
         </div>
       </div>
+
+
+
+      <div class="column is-two-thirds">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-2by1">
+              <img src="img/trek.png" alt="Art School of SF Bay">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/artschoolsfbay.png" alt="trek">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
     </div>
+
+
+
+
+
 
 
 
@@ -68,11 +102,11 @@
 </template>
 
 <script setup>
-onMounted( () => { 
+onMounted(() => {
   let blurMe = document.querySelector("#blur")
 
   let options = {
-    threshold: new Array(101).fill().map((_, idx) => idx/100)
+    threshold: new Array(101).fill().map((_, idx) => idx / 100)
   }
 
   let observer = new IntersectionObserver((entries) => {
@@ -81,17 +115,29 @@ onMounted( () => {
     let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
     blurMe.style["filter"] = `blur(${blurRate}rem)`
   }, options)
-  
+
   observer.observe(document.querySelector("#first-card"))
 })
 </script>
 
 <style>
-
 .card {
-      box-shadow: none;
-      card-radius: 0rem;
-  }
+  box-shadow: none;
+
+}
+
+.card-content {
+    background-color: transparent;
+    padding: 0rem !important;
+
+}
+
+.card-image:first-child img {
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-left-radius: 0rem !important;
+  border-bottom-right-radius: 0rem !important;
+}
 
 .head-text {
 
@@ -145,5 +191,4 @@ project-title {
   letter-spacing: -0.03em;
   color: black;
 }
-
 </style>

@@ -28,22 +28,23 @@
 
     <NuxtPage />
     <footer class="footer">
- 
-      
+
+
       <div class="content has-text-centered">
-        <p>
-          
-          <a href="iristchang@g.ucla.edu">iristchang@g.ucla.edu</a>
-          <a href="https://jgthms.com">LinkedIn</a>
-          <a href="https://twitter.com/isEatingEggTart">Twitter</a>
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Behance</a>.
+        <p> <footer-size>
+
+          <a href="iristchang@g.ucla.edu"><underline>iristchang@g.ucla.edu</underline></a> /
+          <a href="https://jgthms.com"><underline>LinkedIn</underline></a> /
+          <a href="https://twitter.com/isEatingEggTart"><underline>Twitter</underline></a> /
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><underline>Behance</underline></a>.
+        </footer-size>
         </p>
       </div>
     </footer>
 
 
 
-    <div style="padding-top: 10000px"></div>
+    <!-- <div style="padding-top: 10000px"></div> -->
 
   </div>
 </template>
@@ -51,6 +52,14 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+footer-size{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -0.05em;
+
+}
 
 top-logo {
   color: black;
@@ -125,9 +134,11 @@ top-logo:hover {
 
 
 
-.footer{
+.footer {
+  padding-top: 6rem;
+  background: none;
 
-padding-top: 6rem;
+  
 }
 </style>
 
