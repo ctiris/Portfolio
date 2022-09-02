@@ -13,9 +13,9 @@
 
 
 
-    <div class="columns">
-      <div class="column is-half">
-        <div class="card">
+    <div class="columns is-gapless" id="blur" >
+      <div class="column is-one-third">
+        <div class="card" id="first-card">
           <div class="card-image">
             <figure class="image is-16by9">
               <img src= "img/artschoolsfbay.png" alt ="Art School of SF Bay">
@@ -36,7 +36,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-half">
+      <div class="column is-two-thirds" style="padding: none">
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
@@ -67,15 +67,35 @@
   </div>
 </template>
 
+<script setup>
+onMounted( () => { 
+  let blurMe = document.querySelector("#blur")
+
+  let options = {
+    threshold: new Array(101).fill().map((_, idx) => idx/100)
+  }
+
+  let observer = new IntersectionObserver((entries) => {
+    let intersectPercent = entries[0].intersectionRatio
+
+    let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
+    blurMe.style["filter"] = `blur(${blurRate}rem)`
+  }, options)
+  
+  observer.observe(document.querySelector("#first-card"))
+})
+</script>
+
 <style>
 
+.card {
+      box-shadow: none;
+      card-radius: 0rem;
+  }
 
-        
 .head-text {
-  border-style: solid;
-  border-width: 10px;
-  border-color: black;
-  padding: 20%;
+
+  padding: 38vh;
 
   font-family: 'Inter';
   font-style: normal;

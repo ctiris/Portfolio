@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="container">
 
         <div class="head-text-container">
-            <p class="head-text">
+            <p class="head-text" style="padding-bottom: 350px">
                 <a href=/me>
                     <underline>This</underline>
                 </a> is who I am:
@@ -11,10 +11,10 @@
 
 
 
-        <div class="columns">
-            <div class="column is-half">
+        <div class="columns" id = "blur">
+            <div class="column is-half" style="padding-right: 180px">
                 <div class="card">
-                    <div class="card-content">
+                    <div class="card-content" id = "first-card">
                         <div class="block-double">
                             <header>Lover of sunsets and white space</header>
                         </div>
@@ -22,7 +22,7 @@
                         <div class="block-double">
                             <paragraph>I started out drawing traditional art, then transitioning to digital programs
                                 like Adobe Photoshop and Illustrator. Previously, I founded a <a
-                                    href="https://jgthms.com">
+                                    href="https://www.instagram.com/curiousaboutyou.co/">
                                     <underline>small business</underline>
                                 </a>,
                                 and now I’m creating multidisciplinary works
@@ -30,8 +30,12 @@
                         </div>
 
                         <div class="block-double">
-                            <paragraph>Currently, I’m pursuing a B.A. in Design | Media Arts
-                                at UCLA, with a minor in Digital Humanities. I mainly practice UX/UI design, graphic
+                            <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
+                                    <underline>Design | Media Arts</underline>
+                                </a>
+                                at UCLA, with a minor in <a href="https://dh.ucla.edu/">
+                                    <underline>Digital Humanities</underline>
+                                </a>. I mainly practice UX/UI design, graphic
                                 design,
                                 and digital art.</paragraph>
                         </div>
@@ -50,15 +54,10 @@
             </div>
             <div class="column is-half">
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image" style="padding-left: 150px; padding-right: 150px; padding-top: 150px; padding-bottom: 150px">
                         <figure class="image is-1by1">
 
-                            <nuxt-img 
-                            src="img/me.png"
-                            width= "400"
-                            height= "400"
-                            />
-
+                            <img src="img/me.png" alt="me">
 
                         </figure>
                     </div>
@@ -399,6 +398,29 @@
 
     </div>
 </template>
+
+
+
+<script setup>
+    onMounted( () => { 
+      let blurMe = document.querySelector("#blur")
+    
+      let options = {
+        threshold: new Array(101).fill().map((_, idx) => idx/100)
+      }
+    
+      let observer = new IntersectionObserver((entries) => {
+        let intersectPercent = entries[0].intersectionRatio
+    
+        let blurRate = (1 - Math.min(intersectPercent, 1)) * 4
+        blurMe.style["filter"] = `blur(${blurRate}rem)`
+      }, options)
+      
+      observer.observe(document.querySelector("#first-card"))
+    })
+    </script>
+
+
   
   <style>
   .card {
@@ -461,9 +483,7 @@
   }
   
   .head-text {
-      border-style: solid;
-      border-width: 10px;
-      border-color: black;
+
       padding: 20%;
   
       font-family: 'Inter';

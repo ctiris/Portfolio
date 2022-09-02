@@ -17,7 +17,7 @@
               <top-link>Me</top-link>
             </NuxtLink>
             <NuxtLink to="/play" class="menu-link navbar-item">
-              <top-link>Play</top-link>
+              <top-link>Books</top-link>
             </NuxtLink>
           </div>
         </div>
@@ -32,6 +32,7 @@
       
       <div class="content has-text-centered">
         <p>
+          
           <a href="iristchang@g.ucla.edu">iristchang@g.ucla.edu</a>
           <a href="https://jgthms.com">LinkedIn</a>
           <a href="https://twitter.com/isEatingEggTart">Twitter</a>
@@ -42,6 +43,8 @@
 
 
 
+    <div style="padding-top: 10000px"></div>
+
   </div>
 </template>
 
@@ -49,24 +52,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 
-.top-logo {
+top-logo {
   color: black;
 }
 
 
-.top-logo:hover {
-  color: orangered;
+top-logo:hover {
+  color: orangered !important;
   transition: color 0.2s;
-}
-
-.top-link {
-  color: rgba(0, 0, 0, 0.5);
-  background: none;
-}
-
-.top-link:hover {
-  color: orangered;
-  background: none;
 }
 
 
@@ -78,14 +71,15 @@
 }
 
 .menu-link:hover {
-  color: black;
+  color: black !important;
+  background-color: transparent !important;
   transition: color 0.5s;
 }
 
 .router-link-active {
   font-family: 'Inter', sans-serif;
-  color: black;
-  background: none;
+  color: black !important;
+  background: none !important;
 }
 
 
@@ -128,10 +122,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-#me {
-  margin-left: 70px;
-  margin-right: 70px;
-}
+
 
 
 .footer{

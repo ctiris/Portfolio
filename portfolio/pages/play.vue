@@ -16,9 +16,7 @@
 <style>
 
 .head-text {
-      border-style: solid;
-      border-width: 10px;
-      border-color: black;
+
       padding: 20%;
   
       font-family: 'Inter';
