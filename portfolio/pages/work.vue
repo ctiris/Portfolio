@@ -34,17 +34,17 @@
             <div class="card-image">
               <figure class="image is-1by1">
 
+             
+                  <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+             
 
-
-                <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
-                <div class="overlay-bg"> </div>
+                <div class="overlay-bg-1"> </div>
                 <div class="overlay-text">
                   <div class="text">
-                    ART SCHOOL OF SF BAY
+                    Art School of SF Bay
                     <br>
-                    -
-                    <br>
-                    <caption>UI/UX Design</caption>
+
+                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
 
                   </div>
                 </div>
@@ -68,14 +68,14 @@
               <figure class="image is-2by1">
                 <img src="img/trek.png" alt="trek">
 
-                <div class="overlay-bg"> </div>
+                <div class="overlay-bg-2"> </div>
                 <div class="overlay-text">
                   <div class="text">
-                    ART SCHOOL OF SF BAY
+                    Trek
                     <br>
-                    -
-                    <br>
-                    <caption>UI/UX Design</caption>
+
+                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
+
 
                   </div>
                 </div>
@@ -103,9 +103,8 @@
                   <div class="text">
                     ART SCHOOL OF SF BAY
                     <br>
-                    -
-                    <br>
-                    <caption>UI/UX Design</caption>
+
+                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
 
                   </div>
                 </div>
@@ -131,9 +130,7 @@
                   <div class="text">
                     ART SCHOOL OF SF BAY
                     <br>
-                    -
-                    <br>
-                    <caption>UI/UX Design</caption>
+                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
 
                   </div>
                 </div>
@@ -178,13 +175,17 @@ onMounted(() => {
 </script>
 
 <style>
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
 
 
 #section04 {
-  padding-bottom: 18vh;
+  padding-bottom: 15vh;
 }
 
 #section04 a span {
@@ -204,8 +205,6 @@ html {
   box-sizing: border-box;
 
 }
-
-
 
 
 @-webkit-keyframes sdb04 {
@@ -237,7 +236,7 @@ html {
 }
 
 
-.overlay-bg {
+.overlay-bg-1 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -247,7 +246,29 @@ html {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: darkgoldenrod;
+}
+
+.card-image:first-child:hover .overlay-bg-1 {
+  opacity: .75;
+}
+
+
+.overlay-bg-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkgreen;
+}
+
+.card-image:first-child:hover .overlay-bg-2 {
+  opacity: .75;
 }
 
 .overlay-text {
@@ -263,9 +284,7 @@ html {
 
 }
 
-.card-image:first-child:hover .overlay-bg {
-  opacity: .5;
-}
+
 
 .card-image:first-child:hover .overlay-text {
   opacity: 1;
@@ -282,7 +301,7 @@ html {
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
-  letter-spacing: 0.08em;
+  /* letter-spacing: 0.04em; */
 
   color: white;
   position: absolute;

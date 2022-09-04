@@ -113,8 +113,9 @@ top-logo:hover {
 
 .navbar {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* border: 2px solid rgba(255, 255, 255, 0.15); */
   backdrop-filter: blur(10px);
 
 }
