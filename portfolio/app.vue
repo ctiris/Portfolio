@@ -15,7 +15,7 @@
               <top-link>WORK</top-link>
             </NuxtLink>
             <NuxtLink to="/me" class="menu-link navbar-item">
-              <top-link>ME</top-link>
+              <top-link>ABOUT</top-link>
             </NuxtLink>
             <NuxtLink to="/play" class="menu-link navbar-item">
               <top-link>BOOKS</top-link>
@@ -34,7 +34,7 @@
       <div class="content has-text-centered">
         <p>
           <footer-size>
-            Designed and coded on <a href="https://github.com/ctiris/Portfolio">
+            Designed and coded on <a href="https://github.com/ctiris">
               <underline>ctiris</underline>
             </a> / 
             <a href="iristchang@g.ucla.edu">

@@ -14,148 +14,221 @@
 
     <div>
 
-<div class="columns is-gapless is-multiline" id="blur">
-  <div class="column is-one-third">
-    <div class="card" id="first-card">
-      <div class="card-image">
-        <figure class="image is-1by1">
-          <img src="img/me.png" alt="me">
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="column is-one-third">
-    <div class="card">
-        <div class="card" style="padding-top: 40px; padding-left: 50px; padding-right: 50px">
-                    <div class="card-content" id="first-card">
-                        <div class="block-double">
-                            <header>HI, I'M IRIS</header>
-                        </div>
-
-                  
-
-                        <div class="block-double">
-                            <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
-                                    <underline>Design | Media Arts</underline>
-                                </a>
-                                at UCLA, with a minor in <a href="https://dh.ucla.edu/">
-                                    <underline>Digital Humanities</underline>
-                                </a>. I mainly practice UX/UI design, graphic
-                                design,
-                                and digital art.</paragraph>
-                        </div>
-
-                        <div class="block">
-                            <paragraph>Say hello! <a href="https://jgthms.com">
-                                    <underline>iristchang@g.ucla.edu</underline>
-                                </a> /
-                                <a href="https://jgthms.com">
-                                    <underline>LinkedIn</underline>
-                                </a>
-                            </paragraph>
-                        </div>
+        <div class="columns is-gapless is-multiline" id="blur">
+            <div class="column is-one-third">
+                <div class="card" id="first-card">
+                    <div class="card-image">
+                        <figure class="image is-1by1">
+                            <img src="img/me.png" alt="me">
+                        </figure>
                     </div>
-                </div>
-  
-    </div>
-  </div>
-
-
-
-  <div class="column is-one-third">
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-1by1">
-          <img src="img/trek.png" alt="Art School of SF Bay">
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="column is-one-third">
-    <div class="card">
-        <div class="card" style="padding-top: 40px; padding-left: 50px; padding-right: 50px">
                     <div class="card-content">
-                        <div class="block-double">
-                            <header>IT ALL STARTED WHEN</header>
+                        <div class="media">
+                            <div class="media-content">
+                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            </div>
                         </div>
-
-                        <div class="block-double">
-                            <paragraph>I started out drawing traditional art, then transitioning to digital programs
-                                like Adobe Photoshop and Illustrator. Previously, I founded a <a
-                                    href="https://www.instagram.com/curiousaboutyou.co/">
-                                    <underline>small business</underline>
-                                </a>,
-                                and now I’m creating multidisciplinary works
-                                with all my past experiences in mind.</paragraph>
-                        </div>
-
                     </div>
                 </div>
-    </div>
-  </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                        <div class="card-content" id="first-card">
+                            <div class="block-double">
+                                <header>HELLO, I'M IRIS!</header>
+                            </div>
 
-  <div class="column is-one-third">
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-1by1">
-          <img src="img/pin.jpg" alt="A pin I made!">
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-          </div>
+
+
+                            <div class="block-double">
+                                <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
+                                        <underline>Design | Media Arts</underline>
+                                    </a>
+                                    at UCLA, with a minor in <a href="https://dh.ucla.edu/">
+                                        <underline>Digital Humanities</underline>
+                                    </a>. I mainly practice UX/UI design, visual
+                                    design,
+                                    and digital art.</paragraph>
+                            </div>
+
+                            <div class="block-double">
+                                <paragraph>Say hello! <a href="https://jgthms.com">
+                                        <underline>iristchang@g.ucla.edu</underline>
+                                    </a> /
+                                    <a href="https://jgthms.com">
+                                        <underline>LinkedIn</underline>
+                                    </a>
+                                </paragraph>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-1by1">
+                            <img src="img/trek.png" alt="Art School of SF Bay">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                        <div class="card-content">
+                            <div class="block-double">
+                                <header>IT ALL STARTED WHEN</header>
+                            </div>
+
+                            <div class="block-double">
+                                <paragraph>I started out drawing traditional art, then transitioning to digital programs
+                                    like Adobe Photoshop and Illustrator. Previously, I founded a <a
+                                        href="https://www.instagram.com/curiousaboutyou.co/">
+                                        <underline>small business</underline>
+                                    </a>,
+                                    and now I’m creating multidisciplinary works
+                                    with all my past experiences in mind.</paragraph>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-1by1">
+                            <img src="img/pin.jpg" alt="A pin I made!">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                        <div class="card-content">
+                            <div class="block-double">
+                                <header>CURRENTLY</header>
+                            </div>
+
+                            <div class="block-double">
+                                <paragraph>I started out drawing traditional art, then transitioning to digital programs
+                                    like Adobe Photoshop and Illustrator. Previously, I founded a <a
+                                        href="https://www.instagram.com/curiousaboutyou.co/">
+                                        <underline>small business</underline>
+                                    </a>,
+                                    and now I’m creating multidisciplinary works
+                                    with all my past experiences in mind.</paragraph>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-1by1">
+                            <img src="img/pin.jpg" alt="A pin I made!">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card" style="padding-top: 90px; padding-left: 80px; padding-right: 80px">
+                        <div class="card-content">
+                            <div class="block-double">
+                                <header>EXPERIENCE</header>
+                            </div>
+
+                            <div class="block-none">
+                                <paragraph>UX/UI Designer @ Art School of SF Bay</paragraph>
+                            </div>
+                            <div class="block-double">
+                                <paragraph-light>Summer 2022</paragraph-light>
+                            </div>
+
+                            <div class="block-none">
+                                <paragraph>Marketing Intern @ Amplo VC</paragraph>
+                            </div>
+                            <div class="block-double">
+                                <paragraph-light>Winter 2021</paragraph-light>
+                            </div>
+
+                            <div class="block-none">
+                                <paragraph>Founder @ Curious About You Co.</paragraph>
+                            </div>
+                            <div class="block-double">
+                                <paragraph-light>Fall 2019 - Present</paragraph-light>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-1by1">
+                            <img src="img/pin.jpg" alt="A pin I made!">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
-      </div>
+
+
     </div>
-  </div>
-
-  <div class="column is-one-third">
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-1by1">
-          <img src="img/artschoolsfbay.png" alt="trek">
-        </figure>
-      </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-</div>
 
 
 
@@ -167,7 +240,7 @@
 
 
 
-        <!-- 
+    <!-- 
         <div class="columns" id="blur">
             <div class="column is-half">
                 <div class="card">
@@ -571,7 +644,7 @@
  -->
 
 
-  
+
 </template>
 
 
@@ -674,7 +747,7 @@ onMounted(() => {
   
   .head-text {
   
-      padding: 37vh;
+      padding: 40vh;
   
       font-family: 'rooney-web', serif;
       font-style: normal;

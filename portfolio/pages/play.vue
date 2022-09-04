@@ -19,7 +19,7 @@
 
     <div class="columns is-gapless is-multiline" id="blur">
       <div class="column is-one-third">
-        <div class="card" id="first-card">
+        <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/trek.png" alt="trek">
@@ -54,7 +54,7 @@
 
 
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/trek.png" alt="Art School of SF Bay">
@@ -70,7 +70,7 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/artschoolsfbay.png" alt="trek">
@@ -87,7 +87,7 @@
       </div>
 
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/trek.png" alt="trek">
@@ -104,7 +104,7 @@
       </div>
 
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
           <div class="card-image">
             <figure class="image is-1by1">
               <img src="img/artschoolsfbay.png" alt="trek">

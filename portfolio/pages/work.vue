@@ -1,13 +1,16 @@
 <template>
 
-<link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
+  <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div>
     <div class="head-text-container">
       <p class="head-text">
         Hey there! I’m <a href=/me>
-          <underline><bold>Iris Chang</bold></underline>
+          <underline>
+            <bold>Iris Chang</bold>
+          </underline>
         </a>, an undergraduate student at <a href=/me>
-          <underline>UCLA</underline></a>. I’m interested in <a href=#UXdesigns>
+          <underline>UCLA</underline>
+        </a>. I’m interested in <a href=#UXdesigns>
           <underline>UX
             design</underline>
         </a> and creating beautiful experiences.
@@ -27,10 +30,27 @@
     <div id="UXdesigns">
       <div class="columns is-gapless is-multiline" id="blur">
         <div class="column is-one-third">
-          <div class="card" id="first-card">
+          <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
             <div class="card-image">
               <figure class="image is-1by1">
+
+
+
                 <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    ART SCHOOL OF SF BAY
+                    <br>
+                    -
+                    <br>
+                    <caption>UI/UX Design</caption>
+
+                  </div>
+                </div>
+
+
+
               </figure>
             </div>
             <div class="card-content">
@@ -43,10 +63,22 @@
           </div>
         </div>
         <div class="column is-two-thirds">
-          <div class="card">
+          <div class="card" style=" padding-left: 5px; padding-bottom: 5px;">
             <div class="card-image">
               <figure class="image is-2by1">
                 <img src="img/trek.png" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    ART SCHOOL OF SF BAY
+                    <br>
+                    -
+                    <br>
+                    <caption>UI/UX Design</caption>
+
+                  </div>
+                </div>
               </figure>
             </div>
             <div class="card-content">
@@ -61,10 +93,22 @@
 
 
         <div class="column is-two-thirds">
-          <div class="card">
+          <div class="card" style=" padding-right: 5px; padding-top: 5px;">
             <div class="card-image">
               <figure class="image is-2by1">
                 <img src="img/trek.png" alt="Art School of SF Bay">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    ART SCHOOL OF SF BAY
+                    <br>
+                    -
+                    <br>
+                    <caption>UI/UX Design</caption>
+
+                  </div>
+                </div>
               </figure>
             </div>
             <div class="card-content">
@@ -77,10 +121,22 @@
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="card">
+          <div class="card" style=" padding-left: 5px; padding-top: 5px;">
             <div class="card-image">
               <figure class="image is-1by1">
                 <img src="img/artschoolsfbay.png" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    ART SCHOOL OF SF BAY
+                    <br>
+                    -
+                    <br>
+                    <caption>UI/UX Design</caption>
+
+                  </div>
+                </div>
               </figure>
             </div>
             <div class="card-content">
@@ -127,21 +183,26 @@ html {
 }
 
 
+#section04 {
+  padding-bottom: 18vh;
+}
+
 #section04 a span {
+
   position: absolute;
-  top: 0;
+  top: 1;
   left: 50%;
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 4px solid black;
-  border-bottom: 4px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
   animation: sdb04 2s infinite;
   box-sizing: border-box;
-  
+
 }
 
 
@@ -176,7 +237,68 @@ html {
 }
 
 
-bold{
+.overlay-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.card-image:first-child:hover .overlay-bg {
+  opacity: .5;
+}
+
+.card-image:first-child:hover .overlay-text {
+  opacity: 1;
+}
+
+.card-image:first-child:hover .text {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Karla';
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.08em;
+
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.caption {
+  font-size: 18px !important;
+}
+
+bold {
   font-weight: 500 !important;
 }
 
@@ -201,7 +323,7 @@ bold{
 
 .head-text {
 
-  padding: 34vh;
+  padding: 28vh;
 
   font-family: 'rooney-web', serif;
   font-style: normal;
@@ -211,6 +333,7 @@ bold{
   text-align: left;
   /* letter-spacing: -0.03em; */
 }
+
 
 
 underline {
