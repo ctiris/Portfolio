@@ -1,158 +1,159 @@
 <template>
-    <div>
-      <div class="head-text-container">
-        <p class="head-text">
-          Hey there! I’m <a href=/me>
-            <underline>book pageee</underline>
-          </a>, an undergraduate student at UCLA. I’m interested in <a href=/work>
-            <underline>UX
-              design</underline>
-          </a> and creating subtle
-          interfaces that are fun and spark joy.
-        </p>
-      </div>
-  </div>
-  
-  
+  <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div>
-  
-      <div class="columns is-gapless is-multiline" id="blur">
-        <div class="column is-one-third">
-          <div class="card" id="first-card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/trek.png" alt="Art School of SF Bay">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-  
-  
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/trek.png" alt="Art School of SF Bay">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/trek.png" alt="trek">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-  
-  
-  
-      </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    <div class="head-text-container">
+      <p class="head-text">
+        Hey there! I’m <a href=/me>
+          <underline>book pageee</underline>
+        </a>, an undergraduate student at UCLA. I’m interested in <a href=/work>
+          <underline>UX
+            design</underline>
+        </a> and creating subtle
+        interfaces that are fun and spark joy.
+      </p>
     </div>
-  </template>
+  </div>
+
+
+  <div>
+
+    <div class="columns is-gapless is-multiline" id="blur">
+      <div class="column is-one-third">
+        <div class="card" id="first-card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/trek.png" alt="trek">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/trek.png" alt="Art School of SF Bay">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/artschoolsfbay.png" alt="trek">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/trek.png" alt="trek">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-1by1">
+              <img src="img/artschoolsfbay.png" alt="trek">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+</template>
   
   <script setup>
-  onMounted(() => {
-    let blurMe = document.querySelector("#blur")
-  
-    let options = {
-      threshold: new Array(101).fill().map((_, idx) => idx / 100)
-    }
-  
-    let observer = new IntersectionObserver((entries) => {
-      let intersectPercent = entries[0].intersectionRatio
-  
-      let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
-      blurMe.style["filter"] = `blur(${blurRate}rem)`
-    }, options)
-  
-    observer.observe(document.querySelector("#first-card"))
-  })
-  </script>
+onMounted(() => {
+  let blurMe = document.querySelector("#blur")
+
+  let options = {
+    threshold: new Array(101).fill().map((_, idx) => idx / 100)
+  }
+
+  let observer = new IntersectionObserver((entries) => {
+    let intersectPercent = entries[0].intersectionRatio
+
+    let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
+    blurMe.style["filter"] = `blur(${blurRate}rem)`
+  }, options)
+
+  observer.observe(document.querySelector("#first-card"))
+})
+</script>
   
   <style>
   .card {
@@ -161,8 +162,8 @@
   }
   
   .card-content {
-      background-color: transparent;
-      padding: 0rem !important;
+    background-color: transparent;
+    padding: 0rem !important;
   
   }
   
@@ -175,15 +176,14 @@
   
   .head-text {
   
-    padding: 38vh;
+    padding: 33vh;
   
-    font-family: 'Inter';
+    font-family: 'rooney-web', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 38px;
-    text-align: center;
-    letter-spacing: -0.03em;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: left;
   }
   
   

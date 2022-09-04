@@ -1,4 +1,5 @@
 <template>
+    <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
     <div class="container">
 
         <div class="head-text-container">
@@ -8,15 +9,186 @@
                 </a> is who I am:
             </p>
         </div>
+    </div>
+
+
+    <div>
+
+<div class="columns is-gapless is-multiline" id="blur">
+  <div class="column is-one-third">
+    <div class="card" id="first-card">
+      <div class="card-image">
+        <figure class="image is-1by1">
+          <img src="img/me.png" alt="me">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <div class="card">
+        <div class="card" style="padding-top: 40px; padding-left: 50px; padding-right: 50px">
+                    <div class="card-content" id="first-card">
+                        <div class="block-double">
+                            <header>HI, I'M IRIS</header>
+                        </div>
+
+                  
+
+                        <div class="block-double">
+                            <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
+                                    <underline>Design | Media Arts</underline>
+                                </a>
+                                at UCLA, with a minor in <a href="https://dh.ucla.edu/">
+                                    <underline>Digital Humanities</underline>
+                                </a>. I mainly practice UX/UI design, graphic
+                                design,
+                                and digital art.</paragraph>
+                        </div>
+
+                        <div class="block">
+                            <paragraph>Say hello! <a href="https://jgthms.com">
+                                    <underline>iristchang@g.ucla.edu</underline>
+                                </a> /
+                                <a href="https://jgthms.com">
+                                    <underline>LinkedIn</underline>
+                                </a>
+                            </paragraph>
+                        </div>
+                    </div>
+                </div>
+  
+    </div>
+  </div>
 
 
 
+  <div class="column is-one-third">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-1by1">
+          <img src="img/trek.png" alt="Art School of SF Bay">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <div class="card">
+        <div class="card" style="padding-top: 40px; padding-left: 50px; padding-right: 50px">
+                    <div class="card-content">
+                        <div class="block-double">
+                            <header>IT ALL STARTED WHEN</header>
+                        </div>
+
+                        <div class="block-double">
+                            <paragraph>I started out drawing traditional art, then transitioning to digital programs
+                                like Adobe Photoshop and Illustrator. Previously, I founded a <a
+                                    href="https://www.instagram.com/curiousaboutyou.co/">
+                                    <underline>small business</underline>
+                                </a>,
+                                and now I’m creating multidisciplinary works
+                                with all my past experiences in mind.</paragraph>
+                        </div>
+
+                    </div>
+                </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-1by1">
+          <img src="img/pin.jpg" alt="A pin I made!">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-1by1">
+          <img src="img/artschoolsfbay.png" alt="trek">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+            <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 
         <div class="columns" id="blur">
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image"
+                        style="padding-left: 150px; padding-right: 150px; padding-top: 30px; padding-bottom: 150px">
+                        <figure class="image is-1by1">
+
+                            <img src="img/me.png" alt="me">
+
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+
             <div class="column is-half" style="padding-right: 180px">
                 <div class="card">
                     <div class="card-content" id="first-card">
                         <div class="block-double">
-                            <header>Lover of sunsets and white space</header>
+                            <header>HI, I'M IRIS</header>
                         </div>
 
                         <div class="block-double">
@@ -41,7 +213,7 @@
                         </div>
 
                         <div class="block">
-                            <paragraph>Say hello to me! <a href="https://jgthms.com">
+                            <paragraph>Say hello! <a href="https://jgthms.com">
                                     <underline>iristchang@g.ucla.edu</underline>
                                 </a> /
                                 <a href="https://jgthms.com">
@@ -50,19 +222,6 @@
                             </paragraph>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="card">
-                    <div class="card-image"
-                        style="padding-left: 150px; padding-right: 150px; padding-top: 80px; padding-bottom: 150px">
-                        <figure class="image is-1by1">
-
-                            <img src="img/me.png" alt="me">
-
-                        </figure>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -80,7 +239,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="block-double">
-                            <header>Experience</header>
+                            <header>EXPERIENCE</header>
                         </div>
 
                         <div class="block-none">
@@ -132,7 +291,7 @@
                 <div class="card" style="padding-right: 80px">
                     <div class="card-content">
                         <div class="block-double">
-                            <header>Currently...</header>
+                            <header>CURRENTLY...</header>
                         </div>
 
                         <div class="block">
@@ -396,7 +555,7 @@
         <div class="columns is-gapless">
             <div class="column">
                 <div class="card">
-                    <div class="card-image">
+                    <div class="card-image" style="justify-content: center">
                         <figure class="image is-32x32">
                             <img src="img/menuicon.png" alt="Art School of SF Bay">
                         </figure>
@@ -409,10 +568,10 @@
 
 
 
+ -->
 
 
-
-    </div>
+  
 </template>
 
 
@@ -428,7 +587,12 @@ onMounted(() => {
     let observer = new IntersectionObserver((entries) => {
         let intersectPercent = entries[0].intersectionRatio
 
-        let blurRate = (1 - Math.min(intersectPercent, 1)) * 4
+        let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
+
+        if (intersectPercent <= 0) {
+            blurRate = 0;
+        }
+
         blurMe.style["filter"] = `blur(${blurRate}rem)`
     }, options)
 
@@ -443,8 +607,10 @@ onMounted(() => {
       border-top-left-radius: 0rem !important;
       border-top-right-radius: 0rem !important;
       border-bottom-left-radius: 0rem !important;
-  border-bottom-right-radius: 0rem !important;
+      border-bottom-right-radius: 0rem !important;
   }
+  
+  
   
   
   .card {
@@ -508,33 +674,32 @@ onMounted(() => {
   
   .head-text {
   
-      padding: 20%;
+      padding: 37vh;
   
-      font-family: 'Inter';
+      font-family: 'rooney-web', serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 32px;
-      line-height: 38px;
-      text-align: center;
-      letter-spacing: -0.03em;
+      font-size: 50px;
+      line-height: 65px;
+      text-align: left;
   }
   
   
   header {
-      font-family: 'Inter';
+      font-family: 'Karla';
       font-style: normal;
       font-weight: 400;
       font-size: 28px;
       line-height: 38px;
-      letter-spacing: -0.03em;
+      letter-spacing: 0.08em;
       color: black;
   }
   
   subtitle {
-      font-family: 'Inter';
+      font-family: 'Karla';
       font-style: normal;
-      font-weight: 700;
-      font-size: 12px;
+      font-weight: 600;
+      font-size: 16px;
       line-height: 38px;
       letter-spacing: 0.1em;
       color: #000000;
@@ -542,30 +707,31 @@ onMounted(() => {
   
   
   paragraph {
-      font-family: 'Inter';
+      font-family: 'Karla';
       font-style: normal;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 30px;
-      letter-spacing: -0.03em;
-      color: #000000;
+      /* letter-spacing: -0.03em; */
+      color: #666666;
   }
   
   paragraph-light {
-      font-family: 'Inter';
+      font-family: 'Karla';
       font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
+      font-weight: 300;
+      font-size: 16px;
       line-height: 38px;
+      color: #666666;
       /* or 211% */
   
-      letter-spacing: -0.03em;
+      /* letter-spacing: -0.03em; */
   
-      color: rgba(0, 0, 0, 0.5);
+      /* color: rgba(0, 0, 0, 0.5); */
   }
   
   .content {
-      font-family: 'Inter';
+      font-family: 'Karla';
       font-style: normal;
       font-weight: 400;
       font-size: 18px;

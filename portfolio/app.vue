@@ -1,5 +1,6 @@
-<template>
 
+<template>
+  <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div class="container is-fluid">
     <nav class="navbar is-fixed-top">
       <div class="container is-fluid">
@@ -11,13 +12,13 @@
         <div class="navbar-menu">
           <div class="navbar-start">
             <NuxtLink to="/work" class="menu-link navbar-item">
-              <top-link>Work</top-link>
+              <top-link>WORK</top-link>
             </NuxtLink>
             <NuxtLink to="/me" class="menu-link navbar-item">
-              <top-link>Me</top-link>
+              <top-link>ME</top-link>
             </NuxtLink>
             <NuxtLink to="/play" class="menu-link navbar-item">
-              <top-link>Books</top-link>
+              <top-link>BOOKS</top-link>
             </NuxtLink>
           </div>
         </div>
@@ -31,13 +32,24 @@
 
 
       <div class="content has-text-centered">
-        <p> <footer-size>
-
-          <a href="iristchang@g.ucla.edu"><underline>iristchang@g.ucla.edu</underline></a> /
-          <a href="https://jgthms.com"><underline>LinkedIn</underline></a> /
-          <a href="https://twitter.com/isEatingEggTart"><underline>Twitter</underline></a> /
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><underline>Behance</underline></a>.
-        </footer-size>
+        <p>
+          <footer-size>
+            Designed and coded on <a href="https://github.com/ctiris/Portfolio">
+              <underline>ctiris</underline>
+            </a> / 
+            <a href="iristchang@g.ucla.edu">
+              <underline>iristchang@g.ucla.edu</underline>
+            </a> /
+            <a href="https://jgthms.com">
+              <underline>LinkedIn</underline>
+            </a> /
+            <a href="https://twitter.com/isEatingEggTart">
+              <underline>Twitter</underline>
+            </a> /
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <underline>Behance</underline>
+            </a>.
+          </footer-size>
         </p>
       </div>
     </footer>
@@ -50,14 +62,22 @@
 </template>
 
 <style>
+/* inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
-footer-size{
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
+/* karla */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+footer-size {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 17px;
-  letter-spacing: -0.05em;
+  /* letter-spacing: -0.05em; */
 
 }
 
@@ -86,7 +106,6 @@ top-logo:hover {
 }
 
 .router-link-active {
-  font-family: 'Inter', sans-serif;
   color: black !important;
   background: none !important;
 }
@@ -102,32 +121,32 @@ top-logo:hover {
 
 .navbar-start {
   flex-grow: 1;
-  justify-content: center;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  justify-content: right;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
   font-weight: 500;
   line-height: 17px;
-  letter-spacing: -0.05em;
+  letter-spacing: 0.05em;
 
 }
 
 .navbar-brand {
   position: fixed;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 19px;
-  letter-spacing: -0.05em;
+  /* letter-spacing: -0.05em; */
 }
 
 
 .content {
-  font-family: 'Inter';
+  font-family: 'Karla';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  letter-spacing: -0.005em;
+  /* letter-spacing: -0.005em; */
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -138,7 +157,7 @@ top-logo:hover {
   padding-top: 6rem;
   background: none;
 
-  
+
 }
 </style>
 
