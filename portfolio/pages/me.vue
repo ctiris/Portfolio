@@ -657,27 +657,42 @@
 
 
 <script setup>
+// passes blur function to onMounted
 onMounted(() => {
-    let blurMe = document.querySelector("#blur")
 
-    let options = {
-        threshold: new Array(101).fill().map((_, idx) => idx / 100)
-    }
+// gets a reference to part of html that we want to blur
+let blurMe = document.querySelector("#blur")
 
-    let observer = new IntersectionObserver((entries) => {
-        let intersectPercent = entries[0].intersectionRatio
+// creates an object that holds the options for making IntersectionObserver
+let options = {
+  // creates array to hold all values from 0 - 1
+  threshold: new Array(101).fill().map((_, idx) => idx / 100)
+}
 
-        let blurRate = (1 - Math.min(intersectPercent, 1)) * 5.7
+// creates a new IntersectionObserver 
+let observer = new IntersectionObserver((entries) => { // passes in below function
+  // prints out y values
+  // console.log(entries[0].intersectionRect.y)
+  // stops blur when card is going up off the screen
+  if(entries[0].intersectionRect.y == 0) {
+    return
+  }
 
-        if (intersectPercent <= 0) {
-            blurRate = 0;
-        }
+  // gets the IntersectionRatio from IntersectionObserver
+  let intersectPercent = entries[0].intersectionRatio
 
-        blurMe.style["filter"] = `blur(${blurRate}rem)`
-    }, options)
+  // when intersectPercent is off screen -> blurRate is 0, fully on screen -> blurRate is 5
+  // Math.min truncates intersectPercent at 1
+  let blurRate = (1 - Math.min(intersectPercent, 1)) * 5
 
-    observer.observe(document.querySelector("#first-card"))
+  // applies blurRate to blur filter
+  blurMe.style["filter"] = `blur(${blurRate}rem)`
+}, options)
+
+// calling observe function inside observer, takes a reference to the first card
+observer.observe(document.querySelector("#first-card"))
 })
+
 </script>
 
 

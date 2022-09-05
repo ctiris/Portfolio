@@ -1,7 +1,7 @@
 
 <template>
   <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
-  <div class="container is-fluid">
+  <div>
     <nav class="navbar is-fixed-top">
       <div class="container is-fluid">
         <div class="navbar-brand">
@@ -9,8 +9,9 @@
             <top-logo>Iris Chang</top-logo>
           </NuxtLink>
         </div>
+      
         <div class="navbar-menu">
-          
+
           <div class="navbar-start">
             <NuxtLink to="/work" class="menu-link navbar-item">
               <top-link>WORK</top-link>
@@ -29,6 +30,8 @@
 
 
     <NuxtPage />
+
+
     <footer class="footer">
 
 

@@ -351,7 +351,8 @@ bold {
 
 
 .card {
-  box-shadow: none;
+  box-shadow: none !important;
+  background-color: none !important;
 
 }
 
@@ -366,6 +367,7 @@ bold {
   border-top-right-radius: 0rem !important;
   border-bottom-left-radius: 0rem !important;
   border-bottom-right-radius: 0rem !important;
+  box-shadow: none !important;
 }
 
 .head-text {
