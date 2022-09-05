@@ -10,6 +10,7 @@
           </NuxtLink>
         </div>
         <div class="navbar-menu">
+          
           <div class="navbar-start">
             <NuxtLink to="/work" class="menu-link navbar-item">
               <top-link>WORK</top-link>
@@ -18,7 +19,7 @@
               <top-link>ABOUT</top-link>
             </NuxtLink>
             <NuxtLink to="/play" class="menu-link navbar-item">
-              <top-link>BOOKS</top-link>
+              <top-link>PLAY</top-link>
             </NuxtLink>
           </div>
         </div>
@@ -124,7 +125,7 @@ top-logo:hover {
   flex-grow: 1;
   justify-content: right;
   font-family: 'Karla', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 0.05em;

@@ -9,7 +9,9 @@
             <bold>Iris Chang</bold>
           </underline>
         </a>, an undergraduate student at <a href=/me>
-          <underline>UCLA</underline>
+          <underline>
+            <bold>UCLA</bold>
+          </underline>
         </a>. I’m interested in <a href=#UXdesigns>
           <underline>UX
             design</underline>
@@ -34,14 +36,14 @@
             <div class="card-image">
               <figure class="image is-1by1">
 
-             
-                  <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
-             
+
+                <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+
 
                 <div class="overlay-bg-1"> </div>
                 <div class="overlay-text">
                   <div class="text">
-                    Art School of SF Bay
+                    ART SCHOOL OF SF BAY
                     <br>
 
                     <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
@@ -71,7 +73,7 @@
                 <div class="overlay-bg-2"> </div>
                 <div class="overlay-text">
                   <div class="text">
-                    Trek
+                    TREK
                     <br>
 
                     <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
@@ -152,33 +154,53 @@
       </div>
 
     </div>
+
+    <div style="padding-top: 1000px"></div>
   </div>
 </template>
 
 <script setup>
+// passes blur function to onMounted
 onMounted(() => {
+
+  // gets a reference to part of html that we want to blur
   let blurMe = document.querySelector("#blur")
 
+  // creates an object that holds the options for making IntersectionObserver
   let options = {
+    // creates array to hold all values from 0 - 1
     threshold: new Array(101).fill().map((_, idx) => idx / 100)
   }
 
-  let observer = new IntersectionObserver((entries) => {
+  // creates a new IntersectionObserver 
+  let observer = new IntersectionObserver((entries) => { // passes in below function
+    // prints out y values
+    // console.log(entries[0].intersectionRect.y)
+    // stops blur when card is going up off the screen
+    if(entries[0].intersectionRect.y == 0) {
+      return
+    }
+
+    // gets the IntersectionRatio from IntersectionObserver
     let intersectPercent = entries[0].intersectionRatio
 
+    // when intersectPercent is off screen -> blurRate is 0, fully on screen -> blurRate is 5
+    // Math.min truncates intersectPercent at 1
     let blurRate = (1 - Math.min(intersectPercent, 1)) * 5
+
+    // applies blurRate to blur filter
     blurMe.style["filter"] = `blur(${blurRate}rem)`
   }, options)
 
+  // calling observe function inside observer, takes a reference to the first card
   observer.observe(document.querySelector("#first-card"))
 })
+
+
+
 </script>
 
 <style>
-
-
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -196,8 +218,8 @@ html {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -246,7 +268,7 @@ html {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: darkgoldenrod;
+  background-color: black;
 }
 
 .card-image:first-child:hover .overlay-bg-1 {
@@ -264,7 +286,7 @@ html {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: darkgreen;
+  background-color: black;
 }
 
 .card-image:first-child:hover .overlay-bg-2 {
@@ -295,13 +317,19 @@ html {
 }
 
 .text {
-  font-family: 'Karla';
 
+  /* letter-spacing: 0.04em; */
+
+
+
+  font-family: 'Karla';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 28px;
   line-height: 38px;
-  /* letter-spacing: 0.04em; */
+  letter-spacing: 0.08em;
+
+
 
   color: white;
   position: absolute;

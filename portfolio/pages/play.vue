@@ -11,127 +11,122 @@
         </a> and creating subtle
         interfaces that are fun and spark joy.
       </p>
+
+      <div class="scroll-down" id="section04">
+        <a href="#play"><span></span></a>
+      </div>
     </div>
   </div>
 
 
   <div>
-
-    <div class="columns is-gapless is-multiline" id="blur">
-      <div class="column is-one-third">
-        <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+    <div id="play">
+      <div class="columns is-gapless is-multiline" id="blur">
+        <div class="column is-one-third">
+          <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="column is-one-third">
-        <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/trek.png" alt="trek">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+        <div class="column is-one-third">
+          <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/trek.png" alt="trek">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
 
-      <div class="column is-one-third">
-        <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/trek.png" alt="Art School of SF Bay">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+        <div class="column is-one-third">
+          <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/trek.png" alt="Art School of SF Bay">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="column is-one-third">
-        <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/artschoolsfbay.png" alt="trek">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+        <div class="column is-one-third">
+          <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/artschoolsfbay.png" alt="trek">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="column is-one-third">
-        <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/trek.png" alt="trek">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+        <div class="column is-one-third">
+          <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/trek.png" alt="trek">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="column is-one-third">
-        <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="img/artschoolsfbay.png" alt="trek">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+        <div class="column is-one-third">
+          <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/artschoolsfbay.png" alt="trek">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-
-
-
 
     </div>
-
-
-
-
-
-
-
-
 
   </div>
 </template>
@@ -176,7 +171,7 @@ onMounted(() => {
   
   .head-text {
   
-    padding: 33vh;
+    padding: 28vh;
   
     font-family: 'rooney-web', serif;
     font-style: normal;

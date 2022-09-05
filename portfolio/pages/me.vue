@@ -3,228 +3,235 @@
     <div class="container">
 
         <div class="head-text-container">
-            <p class="head-text" style="padding-bottom: 400px">
+            <p class="head-text" style="padding-bottom: 42vh">
                 <a href=/me>
                     <underline>This</underline>
                 </a> is who I am:
             </p>
+
+            <div class="scroll-down" id="section04">
+                <a href="#about"><span></span></a>
+            </div>
         </div>
     </div>
 
 
     <div>
-
-        <div class="columns is-gapless is-multiline" id="blur">
-            <div class="column is-one-third">
-                <div class="card" id="first-card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                            <img src="img/me.png" alt="me">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                            </div>
+        <div id="about">
+            <div class="columns is-gapless is-multiline" id="blur">
+                <div class="column is-one-third">
+                    <div class="card" id="first-card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="img/eye.png" alt="me">
+                            </figure>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
-                        <div class="card-content" id="first-card">
-                            <div class="block-double">
-                                <header>HELLO, I'M IRIS!</header>
-                            </div>
-
-
-
-                            <div class="block-double">
-                                <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
-                                        <underline>Design | Media Arts</underline>
-                                    </a>
-                                    at UCLA, with a minor in <a href="https://dh.ucla.edu/">
-                                        <underline>Digital Humanities</underline>
-                                    </a>. I mainly practice UX/UI design, visual
-                                    design,
-                                    and digital art.</paragraph>
-                            </div>
-
-                            <div class="block-double">
-                                <paragraph>Say hello! <a href="https://jgthms.com">
-                                        <underline>iristchang@g.ucla.edu</underline>
-                                    </a> /
-                                    <a href="https://jgthms.com">
-                                        <underline>LinkedIn</underline>
-                                    </a>
-                                </paragraph>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                            <img src="img/trek.png" alt="Art School of SF Bay">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
                         <div class="card-content">
-                            <div class="block-double">
-                                <header>IT ALL STARTED WHEN</header>
-                            </div>
-
-                            <div class="block-double">
-                                <paragraph>I started out drawing traditional art, then transitioning to digital programs
-                                    like Adobe Photoshop and Illustrator. Previously, I founded a <a
-                                        href="https://www.instagram.com/curiousaboutyou.co/">
-                                        <underline>small business</underline>
-                                    </a>,
-                                    and now I’m creating multidisciplinary works
-                                    with all my past experiences in mind.</paragraph>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                            <img src="img/pin.jpg" alt="A pin I made!">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            <div class="media">
+                                <div class="media-content">
+                                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                            <div class="card-content" id="first-card">
+                                <div class="block-double">
+                                    <header>HELLO, I'M IRIS!</header>
+                                </div>
 
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+
+
+                                <div class="block-double">
+                                    <paragraph>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
+                                            <underline>Design | Media Arts</underline>
+                                        </a>
+                                        at UCLA, with a minor in <a href="https://dh.ucla.edu/">
+                                            <underline>Digital Humanities</underline>
+                                        </a>. I mainly practice UX/UI design, visual
+                                        design,
+                                        and digital art.</paragraph>
+                                </div>
+
+                                <div class="block-double">
+                                    <paragraph>Say hello! <a href="https://jgthms.com">
+                                            <underline>iristchang@g.ucla.edu</underline>
+                                        </a> /
+                                        <a href="https://jgthms.com">
+                                            <underline>LinkedIn</underline>
+                                        </a>
+                                    </paragraph>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="img/laugh.png" alt="Art School of SF Bay">
+                            </figure>
+                        </div>
                         <div class="card-content">
-                            <div class="block-double">
-                                <header>CURRENTLY</header>
-                            </div>
-
-                            <div class="block-double">
-                                <paragraph>I started out drawing traditional art, then transitioning to digital programs
-                                    like Adobe Photoshop and Illustrator. Previously, I founded a <a
-                                        href="https://www.instagram.com/curiousaboutyou.co/">
-                                        <underline>small business</underline>
-                                    </a>,
-                                    and now I’m creating multidisciplinary works
-                                    with all my past experiences in mind.</paragraph>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                            <img src="img/pin.jpg" alt="A pin I made!">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            <div class="media">
+                                <div class="media-content">
+                                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                            <div class="card-content">
+                                <div class="block-double">
+                                    <header>IT ALL STARTED WHEN</header>
+                                </div>
 
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card" style="padding-top: 90px; padding-left: 80px; padding-right: 80px">
+                                <div class="block-double">
+                                    <paragraph>I started out drawing traditional art, then transitioning to digital
+                                        programs
+                                        like Adobe Photoshop and Illustrator. Previously, I founded a <a
+                                            href="https://www.instagram.com/curiousaboutyou.co/">
+                                            <underline>small business</underline>
+                                        </a>,
+                                        and now I’m creating multidisciplinary works
+                                        with all my past experiences in mind.</paragraph>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="img/purp.png" alt="A pin I made!">
+                            </figure>
+                        </div>
                         <div class="card-content">
-                            <div class="block-double">
-                                <header>EXPERIENCE</header>
-                            </div>
-
-                            <div class="block-none">
-                                <paragraph>UX/UI Designer @ Art School of SF Bay</paragraph>
-                            </div>
-                            <div class="block-double">
-                                <paragraph-light>Summer 2022</paragraph-light>
-                            </div>
-
-                            <div class="block-none">
-                                <paragraph>Marketing Intern @ Amplo VC</paragraph>
-                            </div>
-                            <div class="block-double">
-                                <paragraph-light>Winter 2021</paragraph-light>
-                            </div>
-
-                            <div class="block-none">
-                                <paragraph>Founder @ Curious About You Co.</paragraph>
-                            </div>
-                            <div class="block-double">
-                                <paragraph-light>Fall 2019 - Present</paragraph-light>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <div class="column is-one-third">
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-1by1">
-                            <img src="img/pin.jpg" alt="A pin I made!">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                            <div class="media">
+                                <div class="media-content">
+                                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card" style="padding-top: 120px; padding-left: 80px; padding-right: 80px">
+                            <div class="card-content">
+                                <div class="block-double">
+                                    <header>CURRENTLY</header>
+                                </div>
+
+                                <div class="block-double">
+                                    <paragraph>I started out drawing traditional art, then transitioning to digital
+                                        programs
+                                        like Adobe Photoshop and Illustrator. Previously, I founded a <a
+                                            href="https://www.instagram.com/curiousaboutyou.co/">
+                                            <underline>small business</underline>
+                                        </a>,
+                                        and now I’m creating multidisciplinary works
+                                        with all my past experiences in mind.</paragraph>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="img/pink.png" alt="A pin I made!">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card" style="padding-top: 90px; padding-left: 80px; padding-right: 80px">
+                            <div class="card-content">
+                                <div class="block-double">
+                                    <header>EXPERIENCE</header>
+                                </div>
+
+                                <div class="block-none">
+                                    <paragraph>UX/UI Designer @ Art School of SF Bay</paragraph>
+                                </div>
+                                <div class="block-double">
+                                    <paragraph-light>Summer 2022</paragraph-light>
+                                </div>
+
+                                <div class="block-none">
+                                    <paragraph>Marketing Intern @ Amplo VC</paragraph>
+                                </div>
+                                <div class="block-double">
+                                    <paragraph-light>Winter 2021</paragraph-light>
+                                </div>
+
+                                <div class="block-none">
+                                    <paragraph>Founder @ Curious About You Co.</paragraph>
+                                </div>
+                                <div class="block-double">
+                                    <paragraph-light>Fall 2019 - Present</paragraph-light>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-1by1">
+                                <img src="img/yellow.png" alt="A pin I made!">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-
-
         </div>
 
 
@@ -676,6 +683,58 @@ onMounted(() => {
 
   
   <style>
+  #section04 {
+      padding-bottom: 15vh;
+  }
+  
+  #section04 a span {
+  
+      position: absolute;
+      top: 1;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      margin-left: -12px;
+      border-left: 4px solid black;
+      border-bottom: 4px solid black;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-animation: sdb04 2s infinite;
+      animation: sdb04 2s infinite;
+      box-sizing: border-box;
+  
+  }
+  
+  
+  @-webkit-keyframes sdb04 {
+      0% {
+          -webkit-transform: rotate(-45deg) translate(0, 0);
+      }
+  
+      20% {
+          -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+      }
+  
+      40% {
+          -webkit-transform: rotate(-45deg) translate(0, 0);
+      }
+  }
+  
+  @keyframes sdb04 {
+      0% {
+          transform: rotate(-45deg) translate(0, 0);
+      }
+  
+      20% {
+          transform: rotate(-45deg) translate(-10px, 10px);
+      }
+  
+      40% {
+          transform: rotate(-45deg) translate(0, 0);
+      }
+  }
+  
+  
   .card-image:first-child img {
       border-top-left-radius: 0rem !important;
       border-top-right-radius: 0rem !important;
@@ -747,7 +806,7 @@ onMounted(() => {
   
   .head-text {
   
-      padding: 40vh;
+      padding: 28vh;
   
       font-family: 'rooney-web', serif;
       font-style: normal;
@@ -761,7 +820,7 @@ onMounted(() => {
   header {
       font-family: 'Karla';
       font-style: normal;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 28px;
       line-height: 38px;
       letter-spacing: 0.08em;
