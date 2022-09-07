@@ -8,7 +8,7 @@
           <underline>
             <bold>Iris Chang</bold>
           </underline>
-        </a>, an undergraduate student at <a href=/me>
+        </a>, an undergraduate student at <a href="projects/artschoolsfbay">
           <underline>
             <bold>UCLA</bold>
           </underline>
@@ -40,13 +40,13 @@
                 <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
 
 
-                <div class="overlay-bg-1"> </div>
+                <div class="overlay-bg"> </div>
                 <div class="overlay-text">
                   <div class="text">
                     ART SCHOOL OF SF BAY
                     <br>
 
-                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
 
                   </div>
                 </div>
@@ -70,13 +70,13 @@
               <figure class="image is-2by1">
                 <img src="img/trek.png" alt="trek">
 
-                <div class="overlay-bg-2"> </div>
+                <div class="overlay-bg"> </div>
                 <div class="overlay-text">
                   <div class="text">
                     TREK
                     <br>
 
-                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
 
 
                   </div>
@@ -106,7 +106,7 @@
                     ART SCHOOL OF SF BAY
                     <br>
 
-                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
 
                   </div>
                 </div>
@@ -130,9 +130,9 @@
                 <div class="overlay-bg"> </div>
                 <div class="overlay-text">
                   <div class="text">
-                    ART SCHOOL OF SF BAY
+                    PERSONAL PROJECTS
                     <br>
-                    <div style=" font-size: 18px; font-weight: 400"> UI/UX Design</div>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> Over here!</div>
 
                   </div>
                 </div>
@@ -155,7 +155,7 @@
 
     </div>
 
-    <div style="padding-top: 1000px"></div>
+  
   </div>
 </template>
 
@@ -258,7 +258,7 @@ html {
 }
 
 
-.overlay-bg-1 {
+.overlay-bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -271,12 +271,12 @@ html {
   background-color: black;
 }
 
-.card-image:first-child:hover .overlay-bg-1 {
+.card-image:first-child:hover .overlay-bg {
   opacity: .75;
 }
 
 
-.overlay-bg-2 {
+.overlay-bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -285,11 +285,11 @@ html {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
   background-color: black;
 }
 
-.card-image:first-child:hover .overlay-bg-2 {
+.card-image:first-child:hover .overlay-bg {
   opacity: .75;
 }
 
@@ -302,7 +302,7 @@ html {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .3s ease;
 
 }
 
@@ -318,17 +318,12 @@ html {
 
 .text {
 
-  /* letter-spacing: 0.04em; */
-
-
-
   font-family: 'Karla';
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 38px;
   letter-spacing: 0.08em;
-
 
 
   color: white;
@@ -372,7 +367,7 @@ bold {
 
 .head-text {
 
-  padding: 28vh;
+  padding: 28vh !important;
 
   font-family: 'rooney-web', serif;
   font-style: normal;

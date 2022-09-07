@@ -821,7 +821,7 @@ observer.observe(document.querySelector("#first-card"))
   
   .head-text {
   
-      padding: 28vh;
+      padding: 28vh !important;
   
       font-family: 'rooney-web', serif;
       font-style: normal;

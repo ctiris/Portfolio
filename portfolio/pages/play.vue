@@ -3,13 +3,7 @@
   <div>
     <div class="head-text-container">
       <p class="head-text">
-        Hey there! I’m <a href=/me>
-          <underline>book pageee</underline>
-        </a>, an undergraduate student at UCLA. I’m interested in <a href=/work>
-          <underline>UX
-            design</underline>
-        </a> and creating subtle
-        interfaces that are fun and spark joy.
+        Outside of work, I'm also passionate about the creative and playful side of design
       </p>
 
       <div class="scroll-down" id="section04">
@@ -26,7 +20,7 @@
           <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
+                <img src="img/pin.jpg" alt="Art School of SF Bay">
               </figure>
             </div>
             <div class="card-content">
@@ -61,7 +55,7 @@
           <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/trek.png" alt="Art School of SF Bay">
+                <img src="img/pin.jpg" alt="Art School of SF Bay">
               </figure>
             </div>
             <div class="card-content">
@@ -77,7 +71,7 @@
           <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
+                <img src="img/dream.png" alt="trek">
               </figure>
             </div>
             <div class="card-content">
@@ -94,7 +88,7 @@
           <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/trek.png" alt="trek">
+                <img src="img/nostalgia.png" alt="trek">
               </figure>
             </div>
             <div class="card-content">
@@ -111,7 +105,7 @@
           <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
+                <img src="img/blocks.png" alt="trek">
               </figure>
             </div>
             <div class="card-content">
