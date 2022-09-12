@@ -1,26 +1,37 @@
 <template>
   <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div>
-    <div class="head-text-container">
+    <div class="head-text-container" style="position:fixed">
       <p class="head-text">
-        Outside of work, I'm also passionate about the creative and playful side of design
+        Outside of work, I'm also passionate about the creative and playful side of design and art. 
       </p>
 
-      <div class="scroll-down" id="section04">
-        <a href="#play"><span></span></a>
-      </div>
+     
     </div>
   </div>
 
 
   <div>
+    <div class="scroll-down" id="section04">
+        <a href="#play"><span></span></a>
+      </div>
     <div id="play">
       <div class="columns is-gapless is-multiline" id="blur">
         <div class="column is-one-third">
           <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/pin.jpg" alt="Art School of SF Bay">
+                <img src="img/lilac.gif" alt="Art School of SF Bay">
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    LILAC
+                    <br>
+
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> Animated music video for "Lilac" by IU</div>
+
+                  </div>
+                </div>
               </figure>
             </div>
             <div class="card-content">
@@ -35,17 +46,21 @@
         <div class="column is-one-third">
           <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/trek.png" alt="trek">
+              <figure class="image is-16by9">
+                <img src="img/prism.gif" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    PRISM
+                    <br>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> Animated music video for "B side" by Nyolfen</div>
+                  </div>
+                </div>
+
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
 
@@ -54,8 +69,17 @@
         <div class="column is-one-third">
           <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
             <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/pin.jpg" alt="Art School of SF Bay">
+              <figure class="image is-16by9">
+                <img src="img/mascara.gif" alt="mascara">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    DAILY ROUTINE
+                    <br>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em">Interactive mini game inspired by my makeup routine</div>
+                  </div>
+                </div>
               </figure>
             </div>
             <div class="card-content">
@@ -67,11 +91,92 @@
             </div>
           </div>
         </div>
+
         <div class="column is-one-third">
           <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
                 <img src="img/dream.png" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    DREAM
+                    <br>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em">Collaborative installation project with friends</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/nobody.png" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    NOBODY
+                    <br>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em">Typographic book for the song "Nobody" by Nas</div>
+                  </div>
+                </div>
+
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/artistsblock.png" alt="trek">
+
+                <div class="overlay-bg"> </div>
+                <div class="overlay-text">
+                  <div class="text">
+                    THE PROCESS
+                    <br>
+                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em">Animated short film about  artist's block</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/yor.png" alt="trek">
+                
               </figure>
             </div>
             <div class="card-content">
@@ -88,7 +193,7 @@
           <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/nostalgia.png" alt="trek">
+                <img src="img/gojo.png" alt="fanart">
               </figure>
             </div>
             <div class="card-content">
@@ -105,7 +210,24 @@
           <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
             <div class="card-image">
               <figure class="image is-1by1">
-                <img src="img/blocks.png" alt="trek">
+                <img src="img/genshin.png" alt="fanart">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
+            <div class="card-image">
+              <figure class="image is-1by1">
+                <img src="img/zhongli.png" alt="fanart">
               </figure>
             </div>
             <div class="card-content">
@@ -165,6 +287,67 @@ observer.observe(document.querySelector("#first-card"))
 </script>
   
   <style>
+
+.overlay-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.card-image:first-child:hover .overlay-bg {
+  opacity: .9;
+}
+
+
+.overlay-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: white;
+}
+
+.card-image:first-child:hover .overlay-bg {
+  opacity: .75;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+
+}
+
+
+
+
+
+.card-image:first-child:hover .overlay-text {
+  opacity: 1;
+}
+
+.card-image:first-child:hover .text {
+  opacity: 1;
+}
+
   .card {
     box-shadow: none !important;
     background-color: none !important;
@@ -186,7 +369,7 @@ observer.observe(document.querySelector("#first-card"))
   
   .head-text {
   
-    padding: 28vh;
+    padding: 20vh;
   
     font-family: 'rooney-web', serif;
     font-style: normal;

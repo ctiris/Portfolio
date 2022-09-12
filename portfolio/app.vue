@@ -5,8 +5,8 @@
     <nav class="navbar is-fixed-top">
       <div class="container is-fluid">
         <div class="navbar-brand">
-          <NuxtLink to="work" class="navbar-item">
-            <top-logo>Iris Chang</top-logo>
+          <NuxtLink to="work" class="navbar-item top-logo">
+           Iris Chang
           </NuxtLink>
         </div>
       
@@ -14,13 +14,13 @@
 
           <div class="navbar-start">
             <NuxtLink to="/work" class="menu-link navbar-item">
-              <top-link>WORK</top-link>
+              WORK
             </NuxtLink>
             <NuxtLink to="/me" class="menu-link navbar-item">
-              <top-link>ABOUT</top-link>
+              ABOUT
             </NuxtLink>
             <NuxtLink to="/play" class="menu-link navbar-item">
-              <top-link>PLAY</top-link>
+              NOT WORK
             </NuxtLink>
           </div>
         </div>
@@ -32,31 +32,32 @@
     <NuxtPage />
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
 
 
       <div class="content has-text-centered">
         <p>
-          <footer-size>
-            Designed and coded on <a href="https://github.com/ctiris">
-              <underline>ctiris</underline>
+          <div></div> -->
+          <!-- <footer-size> -->
+            <!-- Designed and coded on <a href="https://github.com/ctiris">
+              <p class="underline">ctiris</p>
             </a> / 
             <a href="iristchang@g.ucla.edu">
-              <underline>iristchang@g.ucla.edu</underline>
+              <p class="underline">iristchang@g.ucla.edu</p>
             </a> /
             <a href="https://jgthms.com">
-              <underline>LinkedIn</underline>
+              <p class="underline">LinkedIn</p>
             </a> /
             <a href="https://twitter.com/isEatingEggTart">
-              <underline>Twitter</underline>
+              <p class="underline">Twitter</p>
             </a> /
             <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-              <underline>Behance</underline>
-            </a>.
-          </footer-size>
-        </p>
+              <p class="underline">Behance</p>
+            </a>. -->
+          <!-- </footer-size> -->
+        <!-- </p>
       </div>
-    </footer>
+    </footer> -->
 
 
 
@@ -69,6 +70,10 @@
 /* inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* karla */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -76,7 +81,7 @@
 
 
 
-footer-size {
+.footer-size {
   font-family: 'Karla', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -85,20 +90,22 @@ footer-size {
 
 }
 
-top-logo {
-  color: black;
+.top-logo {
+  color: rgba(0, 0, 0, 0.25);
+  /* color: rgb(200, 200, 200); */
 }
 
 
-top-logo:hover {
-  color: orangered !important;
+.top-logo:hover {
+  color: black !important;
   transition: color 0.2s;
 }
 
 
 
 .menu-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.25);
+  /* color: rgb(200, 200, 200); */
   margin-left: 35px;
   margin-right: 35px;
 }
@@ -118,9 +125,7 @@ top-logo:hover {
 .navbar {
   display: flex;
   background-color: transparent;
-  /* background-color: rgba(255, 255, 255, 0.5); */
-  /* border: 2px solid rgba(255, 255, 255, 0.15); */
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 
 }
 

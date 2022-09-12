@@ -1,203 +1,176 @@
 <template>
-
-  <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div>
-    <div class="head-text-container">
-      <p class="head-text">
-        Hey there! I’m <a href=/me>
-          <underline>
-            <bold>Iris Chang</bold>
-          </underline>
-        </a>, an undergraduate student at <a href="projects/artschoolsfbay">
-          <underline>
-            <bold>UCLA</bold>
-          </underline>
-        </a>. I’m interested in <a href=#UXdesigns>
-          <underline>UX
-            design</underline>
-        </a> and creating beautiful experiences.
-      </p>
+    <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
 
-      <div class="scroll-down" id="section04">
-        <a href="#UXdesigns"><span></span></a>
+    <div>
+      <div class="head-text-container" style="position:fixed">
+        <p class="head-text">
+          Hi! I’m <a href=/me>
+            <div class="underline bolded">
+              Iris Chang
+            </div>
+            <br>
+          </a>An undergraduate student at <a href="projects/artschoolsfbay">
+            <div class="underline bolded">
+              UCLA
+            </div>
+          </a> interested in <a href=#UXdesigns>
+            <div class="underline">UX
+              design</div>
+          </a> and creating beautiful experiences.
+        </p>
       </div>
     </div>
-  </div>
 
+    <div>
+      <!-- <div class="scroll-down" id="section04">
+          <a href="#UXdesigns"><span></span></a>
+        </div> -->
+      <div id="UXdesigns" style="position:relative">
+        <div class="columns is-gapless is-multiline" id="blur">
 
-
-
-
-  <div>
-    <div id="UXdesigns">
-      <div class="columns is-gapless is-multiline" id="blur">
-        <div class="column is-one-third">
-          <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
-            <div class="card-image">
-              <figure class="image is-1by1">
-
-
-                <img src="img/artschoolsfbay.png" alt="Art School of SF Bay">
-
-
-                <div class="overlay-bg"> </div>
-                <div class="overlay-text">
-                  <div class="text">
-                    ART SCHOOL OF SF BAY
-                    <br>
-
-                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
-
+          <div class="column is-one-third">
+            <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/trek.png" alt="trek app">
+                  <div class="overlay-bg"> </div>
+                  <div class="overlay-text">
+                    <div class="text">
+                      TREK
+                      <br>
+                      <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> UI/UX Design</div>
+                    </div>
                   </div>
-                </div>
-
-
-
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="column is-two-thirds">
-          <div class="card" style=" padding-left: 5px; padding-bottom: 5px;">
-            <div class="card-image">
-              <figure class="image is-2by1">
-                <img src="img/trek.png" alt="trek">
-
-                <div class="overlay-bg"> </div>
-                <div class="overlay-text">
-                  <div class="text">
-                    TREK
-                    <br>
-
-                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
-
-
+          
+          <div class="column is-two-thirds">
+            <div class="card" style=" padding-left: 5px; padding-bottom: 5px;">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/artschoolsfbay.png" alt="artschoolsfbay">
+                  <div class="overlay-bg"> </div>
+                  <div class="overlay-text">
+                    <div class="text">
+                      ART SCHOOL OF SF BAY
+                      <br>
+                      <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> UI/UX Design</div>
+                    </div>
                   </div>
-                </div>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-
-        <div class="column is-two-thirds">
-          <div class="card" style=" padding-right: 5px; padding-top: 5px;">
-            <div class="card-image">
-              <figure class="image is-2by1">
-                <img src="img/trek.png" alt="Art School of SF Bay">
-
-                <div class="overlay-bg"> </div>
-                <div class="overlay-text">
-                  <div class="text">
-                    ART SCHOOL OF SF BAY
-                    <br>
-
-                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> UI/UX Design</div>
-
+          <div class="column is-two-thirds">
+            <div class="card" style=" padding-right: 5px; padding-top: 5px;">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img src="img/trek.png" alt="Art School of SF Bay">
+                  <div class="overlay-bg"> </div>
+                  <div class="overlay-text">
+                    <div class="text">
+                      ART SCHOOL OF SF BAY
+                      <br>
+                      <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> UI/UX Design</div>
+                    </div>
                   </div>
-                </div>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card" style=" padding-left: 5px; padding-top: 5px;">
-            <div class="card-image">
-              <figure class="image is-1by1">
-                <img src="img/artschoolsfbay.png" alt="trek">
 
-                <div class="overlay-bg"> </div>
-                <div class="overlay-text">
-                  <div class="text">
-                    PERSONAL PROJECTS
-                    <br>
-                    <div style=" font-size: 18px; font-weight: 400; color: #BFBFBF; letter-spacing: 0em"> Over here!</div>
-
+          <div class="column is-one-third">
+            <div class="card" style=" padding-left: 5px; padding-top: 5px;">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="img/artschoolsfbay.png" alt="trek">
+                  <div class="overlay-bg"> </div>
+                  <div class="overlay-text">
+                    <div class="text">
+                      PERSONAL PROJECTS
+                      <br>
+                      <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> Over here!</div>
+                    </div>
                   </div>
-                </div>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
-
-
-
-
       </div>
-
     </div>
-
-  
   </div>
 </template>
 
 <script setup>
 // passes blur function to onMounted
-onMounted(() => {
+// onMounted(() => {
 
-  // gets a reference to part of html that we want to blur
-  let blurMe = document.querySelector("#blur")
+//   // gets a reference to part of html that we want to blur
+//   let blurMe = document.querySelector("#blur")
 
-  // creates an object that holds the options for making IntersectionObserver
-  let options = {
-    // creates array to hold all values from 0 - 1
-    threshold: new Array(101).fill().map((_, idx) => idx / 100)
-  }
+//   // creates an object that holds the options for making IntersectionObserver
+//   let options = {
+//     // creates array to hold all values from 0 - 1
+//     threshold: new Array(101).fill().map((_, idx) => idx / 100)
+//   }
 
-  // creates a new IntersectionObserver 
-  let observer = new IntersectionObserver((entries) => { // passes in below function
-    // prints out y values
-    // console.log(entries[0].intersectionRect.y)
-    // stops blur when card is going up off the screen
-    if(entries[0].intersectionRect.y == 0) {
-      return
-    }
+//   // creates a new IntersectionObserver
+//   let observer = new IntersectionObserver((entries) => { // passes in below function
+//     // prints out y values
+//     // console.log(entries[0].intersectionRect.y)
+//     // stops blur when card is going up off the screen
+//     if(entries[0].intersectionRect.y == 0) {
+//       return
+//     }
 
-    // gets the IntersectionRatio from IntersectionObserver
-    let intersectPercent = entries[0].intersectionRatio
+//     // gets the IntersectionRatio from IntersectionObserver
+//     let intersectPercent = entries[0].intersectionRatio
 
-    // when intersectPercent is off screen -> blurRate is 0, fully on screen -> blurRate is 5
-    // Math.min truncates intersectPercent at 1
-    let blurRate = (1 - Math.min(intersectPercent, 1)) * 5
+//     // when intersectPercent is off screen -> blurRate is 0, fully on screen -> blurRate is 5
+//     // Math.min truncates intersectPercent at 1
+//     let blurRate = (1 - Math.min(intersectPercent, 1)) * 5
 
-    // applies blurRate to blur filter
-    blurMe.style["filter"] = `blur(${blurRate}rem)`
-  }, options)
+//     // applies blurRate to blur filter
+//     blurMe.style["filter"] = `blur(${blurRate}rem)`
+//   }, options)
 
-  // calling observe function inside observer, takes a reference to the first card
-  observer.observe(document.querySelector("#first-card"))
-})
-
-
-
+//   // calling observe function inside observer, takes a reference to the first card
+//   observer.observe(document.querySelector("#first-card"))
+// })
 </script>
 
 <style>
@@ -205,9 +178,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
+/* 
 #section04 {
-  padding-bottom: 15vh;
+  padding-top: 70vh;
 }
 
 #section04 a span {
@@ -256,7 +229,7 @@ html {
     transform: rotate(-45deg) translate(0, 0);
   }
 }
-
+ */
 
 .overlay-bg {
   position: absolute;
@@ -268,7 +241,7 @@ html {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: black;
+  background-color: white;
 }
 
 .card-image:first-child:hover .overlay-bg {
@@ -286,11 +259,11 @@ html {
   width: 100%;
   opacity: 0;
   transition: .3s ease;
-  background-color: black;
+  background-color: white;
 }
 
 .card-image:first-child:hover .overlay-bg {
-  opacity: .75;
+  opacity: .9;
 }
 
 .overlay-text {
@@ -326,7 +299,7 @@ html {
   letter-spacing: 0.08em;
 
 
-  color: white;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -340,9 +313,9 @@ html {
   font-size: 18px !important;
 }
 
-bold {
+/* .bolded {
   font-weight: 500 !important;
-}
+} */
 
 
 .card {
@@ -352,7 +325,7 @@ bold {
 }
 
 .card-content {
-  background-color: transparent;
+  background-color: white;
   padding: 0rem !important;
 
 }
@@ -374,13 +347,13 @@ bold {
   font-weight: 400;
   font-size: 50px;
   line-height: 65px;
-  text-align: left;
+  text-align: left !important;
   /* letter-spacing: -0.03em; */
 }
 
 
 
-underline {
+.underline {
   color: black;
   text-decoration: underline;
   text-decoration-style: dotted;
@@ -389,7 +362,7 @@ underline {
   text-underline-offset: 6px;
 }
 
-underline:hover {
+.underline:hover {
   color: black;
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -399,7 +372,7 @@ underline:hover {
 }
 
 
-subtitle {
+.subtitle {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
@@ -409,7 +382,7 @@ subtitle {
   color: black;
 }
 
-project-title {
+/* project-title {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 600;
@@ -417,5 +390,5 @@ project-title {
   line-height: 39px;
   letter-spacing: -0.03em;
   color: black;
-}
+} */
 </style>
