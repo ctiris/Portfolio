@@ -1,25 +1,21 @@
 <template>
+    <div>
     <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
     <div class="container">
 
         <div class="head-text-container">
-            <p class="head-text"  style="position:fixed">
-                <a href=/me>
-                    <underline>This</underline>
-                </a> is who I am:
-            </p>
-
-           
+            <p class="head-text"  style="position:fixed;">This is who I am</p>
         </div>
     </div>
 
 
     <div>
-        <!-- <div class="scroll-down" id="section04">
+        <div class="scroll-down" id="section04">
                 <a href="#about"><span></span></a>
-            </div> -->
+            </div>
         <div id="about">
-            <div class="columns is-gapless is-multiline" id="blur">
+            <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
+                <div class="columns is-gapless is-multiline">
                 <div class="column is-one-third">
                     <div class="card" id="first-card" >
                         <div class="card-image">
@@ -182,22 +178,22 @@
                                 <div class="block-none">
                                     <p>UX/UI Designer @ Art School of SF Bay</p>
                                 </div>
-                                <div class="block-double">
-                                    <paragraph-light>Summer 2022</paragraph-light>
+                                <div class="block-double paragraph-light">
+                                    Summer 2022
                                 </div>
 
                                 <div class="block-none">
                                     <p>Marketing Intern @ Amplo VC</p>
                                 </div>
-                                <div class="block-double">
-                                    <paragraph-light>Winter 2021</paragraph-light>
+                                <div class="block-double paragraph-light">
+                                    Winter 2021
                                 </div>
 
                                 <div class="block-none">
                                     <p>Founder @ Curious About You Co.</p>
                                 </div>
-                                <div class="block-double">
-                                    <paragraph-light>Fall 2019 - Present</paragraph-light>
+                                <div class="block-double paragraph-light">
+                                    Fall 2019 - Present
                                 </div>
 
                             </div>
@@ -232,6 +228,7 @@
 
 
     </div>
+</div>
 
 </template>
 
@@ -250,7 +247,7 @@
 //   threshold: new Array(101).fill().map((_, idx) => idx / 100)
 // }
 
-// // creates a new IntersectionObserver 
+// // creates a new IntersectionObserver
 // let observer = new IntersectionObserver((entries) => { // passes in below function
 //   // prints out y values
 //   // console.log(entries[0].intersectionRect.y)
@@ -279,11 +276,11 @@
 
   
   <style>
-  /* #section04 {
+  #section04 {
       padding-bottom: 15vh;
-  } */
+  }
   
-  /* #section04 a span {
+  #section04 a span {
   
       position: absolute;
       top: 1;
@@ -328,7 +325,7 @@
       40% {
           transform: rotate(-45deg) translate(0, 0);
       }
-  } */
+  }
   
   
   .card-image:first-child img {
@@ -343,6 +340,8 @@
   
   .card {
       box-shadow: none;
+      border-radius: 0rem !important;
+     
   }
   
   .is-64x64 {
@@ -409,7 +408,7 @@
       font-weight: 400;
       font-size: 50px;
       line-height: 65px;
-      text-align: center !important;
+      text-align: left;
   }
   
   
@@ -444,7 +443,7 @@
       color: #666666;
   }
   
-  paragraph-light {
+  .paragraph-light {
       font-family: 'Karla';
       font-style: normal;
       font-weight: 300;

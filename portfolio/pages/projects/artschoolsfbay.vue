@@ -244,6 +244,39 @@
       </div>
     </div>
 
+
+
+    <div class="columns" style=" padding-top:5rem; padding-left: 45vh; padding-right: 45vh">
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <div class="block-double">
+              <subtitle>EXTRA</subtitle>
+              <br>
+              <paragraph>I was able to create small illustrations for the website throughout the summer
+              </paragraph>
+            </div>
+
+            <div class="card">
+      <div class="card-image">
+        <figure class="image is-3by1">
+          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+        </figure>
+      </div>
+    </div>
+
+           
+
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
   </div>
 </template>
 

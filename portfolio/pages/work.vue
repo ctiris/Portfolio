@@ -5,35 +5,31 @@
     <div>
       <div class="head-text-container" style="position:fixed">
         <p class="head-text">
-          Hi! I’m <a href=/me>
-            <div class="underline bolded">
-              Iris Chang
-            </div>
+          Hi! I’m <a href=/me>Iris Chang</a>
+            
             <br>
-          </a>An undergraduate student at <a href="projects/artschoolsfbay">
-            <div class="underline bolded">
-              UCLA
-            </div>
-          </a> interested in <a href=#UXdesigns>
-            <div class="underline">UX
-              design</div>
+          An undergraduate student at <a href="projects/artschoolsfbay">UCLA</a> interested in <a href=#UXdesigns>UX design
           </a> and creating beautiful experiences.
         </p>
       </div>
     </div>
 
     <div>
-      <!-- <div class="scroll-down" id="section04">
+      <div class="scroll-down" id="section04">
           <a href="#UXdesigns"><span></span></a>
-        </div> -->
+        </div>
       <div id="UXdesigns" style="position:relative">
-        <div class="columns is-gapless is-multiline" id="blur">
+        <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
+          <div class="columns is-gapless is-multiline">
 
           <div class="column is-one-third">
             <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/trek.png" alt="trek app">
+                  <a href="https://www.qries.com/">
+                    <img src="img/trek.png" alt="trek app">
+      </a>
+                 
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
                     <div class="text">
@@ -136,7 +132,7 @@
 </template>
 
 <script setup>
-// passes blur function to onMounted
+// // passes blur function to onMounted
 // onMounted(() => {
 
 //   // gets a reference to part of html that we want to blur
@@ -178,7 +174,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 
+
 #section04 {
   padding-top: 70vh;
 }
@@ -229,7 +225,7 @@ html {
     transform: rotate(-45deg) translate(0, 0);
   }
 }
- */
+
 
 .overlay-bg {
   position: absolute;
@@ -306,7 +302,7 @@ html {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .caption {
@@ -347,7 +343,7 @@ html {
   font-weight: 400;
   font-size: 50px;
   line-height: 65px;
-  text-align: left !important;
+  text-align: left;
   /* letter-spacing: -0.03em; */
 }
 
