@@ -20,8 +20,8 @@
 
 
         <div class="block-double">
-          <sub-head-text>Redesigning the mobile and desktop website to make it easier for people to
-            find their perfect art class</sub-head-text>
+          <sub-head-text>Redesigning the mobile website to make it easier for people to
+            find their perfect class</sub-head-text>
         </div>
 
 
@@ -34,7 +34,7 @@
 
 
     <div class="columns" style="padding-top: 2rem; padding-left: 45vh; padding-right: 45vh">
-      <div class="column is-half">
+      <div class="column is-one-third">
         <div class="card">
           <div class="card-content">
             <div class="block-double">
@@ -45,40 +45,36 @@
                 10 weeks
               </paragraph>
             </div>
-
-
-            <div class="block-double">
-              <subtitle>TOOLS</subtitle>
-              <br>
-              <paragraph>UI/UX Designer</paragraph>
-            </div>
           </div>
         </div>
       </div>
 
-
-      <div class="column is-half">
+      <div class="column is-one-third">
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>TEAM</subtitle>
+              <subtitle>TOOLS</subtitle>
               <br>
-              <paragraph>Summer 2022
+              <paragraph>Figma
                 <br>
-                10 weeks
+                InVision
               </paragraph>
-            </div>
-
-
-            <div class="block-double">
-              <subtitle>SKILLS</subtitle>
-              <br>
-              <paragraph>UI/UX Designer</paragraph>
             </div>
           </div>
         </div>
       </div>
-
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-content">
+            <div class="block-double">
+              <subtitle>ROLE</subtitle>
+              <br>
+              <paragraph>UI/UX Designer
+              </paragraph>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="columns" style=" padding-left: 45vh; padding-right: 45vh">
@@ -141,8 +137,7 @@
           <div class="card-content">
             <div class="block-double">
               <sub-head-text>Even though the website had all the class information, the users weren't able to find it in
-                an
-                efficient way.
+                an efficient way.
               </sub-head-text>
             </div>
           </div>
@@ -182,28 +177,6 @@
     </div>
 
 
-
-
-
-    <div class="columns" style=" padding-left: 45vh; padding-right: 45vh">
-      <div class="column">
-        <div class="card">
-          <div class="card-content">
-            <div class="block-double">
-              <subtitle>PROBLEM DISCOVERY</subtitle>
-              <br>
-              <paragraph>I helped redesign the mobile website for Art School of
-                SF Bay, making it easier for customers to find their perfect class.I helped redesign the mobile website
-                for Art School of SF Bay, making it easier for customers to find their perfect class.I helped redesign
-                the mobile website for Art School of SF Bay,
-              </paragraph>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1">
@@ -233,12 +206,12 @@
               <paragraph>1. Customers find location pages confusing because they don’t think they need it </paragraph>
             </div>
             <div class="block-double">
-              <paragraph>2. Customers want to quickly find class information for a specific age group + location </paragraph>
+              <paragraph>2. Customers want to quickly find class information for a specific age group + location
+              </paragraph>
             </div>
             <div class="block-double">
               <paragraph>3. The most frequently visited pages are the location pages and adult class pages</paragraph>
             </div>
-
           </div>
         </div>
       </div>
@@ -258,16 +231,16 @@
             </div>
 
             <div class="card">
-      <div class="card-image">
-        <figure class="image is-3by1">
-          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-        </figure>
-      </div>
-    </div>
+              <div class="card-image">
+                <figure class="image is-3by1">
+                  <img src="../../img/agegroup.png" alt="Placeholder image">
+                </figure>
+              </div>
+            </div>
 
-           
 
-            
+
+
 
           </div>
         </div>

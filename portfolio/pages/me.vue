@@ -368,15 +368,15 @@
       margin-bottom: 0rem;
   }
   
-  grey {
+  .grey {
       color: rgba(0, 0, 0, 0.5);
   }
   
-  grey:hover {
+  .grey:hover {
       color: black;
   }
   
-  underline {
+  .underline {
       color: black;
       text-decoration: underline;
       text-decoration-style: dotted;
@@ -385,7 +385,7 @@
       text-underline-offset: 6px;
   }
   
-  underline:hover {
+  .underline:hover {
       color: black;
       text-decoration: underline;
       text-decoration-thickness: 2px;
@@ -403,7 +403,8 @@
   
       padding: 28vh !important;
   
-      font-family: 'rooney-web', serif;
+      /* font-family: 'rooney-web', serif; */
+      font-family: 'Karla';
       font-style: normal;
       font-weight: 400;
       font-size: 50px;
@@ -422,7 +423,7 @@
       color: black;
   }
   
-  subtitle {
+  .subtitle {
       font-family: 'Karla';
       font-style: normal;
       font-weight: 600;

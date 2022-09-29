@@ -338,13 +338,14 @@ html {
 
   padding: 28vh !important;
 
-  font-family: 'rooney-web', serif;
+  /* font-family: 'rooney-web', serif; */
+  font-family: 'Karla';
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 65px;
   text-align: left;
-  /* letter-spacing: -0.03em; */
+  letter-spacing: -0.03em;
 }
 
 

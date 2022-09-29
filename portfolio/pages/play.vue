@@ -375,7 +375,8 @@
   
     padding: 20vh;
   
-    font-family: 'rooney-web', serif;
+    /* font-family: 'rooney-web', serif; */
+    font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
