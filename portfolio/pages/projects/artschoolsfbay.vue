@@ -1,7 +1,7 @@
 <template>
 
-  <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
   <div>
+    <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
 
     <div class="card">
       <div class="card-image">
@@ -15,13 +15,13 @@
     <div class="card" style="padding-top: 6rem; padding-left: 45vh; padding-right: 45vh">
       <div class="card-content" id="first-card">
         <div class="block-double">
-          <head-text>Art School of SF Bay</head-text>
+          <div class ="head-text">Art School of SF Bay</div>
         </div>
 
 
         <div class="block-double">
-          <sub-head-text>Redesigning the mobile website to make it easier for people to
-            find their perfect class</sub-head-text>
+          <div class="sub-head-text">Redesigning the mobile website to make it easier for people to
+            find their perfect class</div>
         </div>
 
 
@@ -38,12 +38,14 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>TIMELINE</subtitle>
+              <div class="subtitle">
+              TIMELINE
               <br>
-              <paragraph>Summer 2022
+            </div>
+              <p>Summer 2022
                 <br>
                 10 weeks
-              </paragraph>
+              </p>
             </div>
           </div>
         </div>
@@ -53,12 +55,14 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>TOOLS</subtitle>
+              <div class="subtitle">
+                TOOLS
+              </div>
               <br>
-              <paragraph>Figma
+              <p>Figma
                 <br>
                 InVision
-              </paragraph>
+              </p>
             </div>
           </div>
         </div>
@@ -67,10 +71,12 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>ROLE</subtitle>
+              <div class="subtitle">
+                ROLE
+              </div>
               <br>
-              <paragraph>UI/UX Designer
-              </paragraph>
+              <p>UI/UX Designer
+              </p>
             </div>
           </div>
         </div>
@@ -82,11 +88,13 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>BRIEF</subtitle>
+              <div class="subtitle">
+              BRIEF
+            </div>
               <br>
-              <paragraph>I was tasked to redesign the mobile class-related pages in order to streamline the class search
+              <p>I was tasked to redesign the mobile class-related pages in order to streamline the class search
                 experience.
-              </paragraph>
+              </p>
             </div>
           </div>
         </div>
@@ -106,12 +114,14 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>PROBLEM</subtitle>
+              <div class="subtitle">
+              PROBLEM
+            </div>
               <br>
-              <paragraph>The director of the art school has many people calling her about general art class questions on
+              <p>The director of the art school has many people calling her about general art class questions on
                 a daily basis. There are so many customers contacting her every day, making it hard for her to focus on
                 large scale goals for the school.
-              </paragraph>
+              </p>
             </div>
           </div>
         </div>
@@ -122,7 +132,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-1by1">
-              <img src="img/stressed.png" alt="stressed">
+              <img src="/../../img/stressed.png" alt="stressed">
             </figure>
           </div>
         </div>
@@ -136,9 +146,10 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <sub-head-text>Even though the website had all the class information, the users weren't able to find it in
+              <div class="sub-head-text">
+                Even though the website had all the class information, the users weren't able to find it in
                 an efficient way.
-              </sub-head-text>
+              </div>
             </div>
           </div>
         </div>
@@ -152,11 +163,12 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>GOAL 1</subtitle>
+              <div class="subtitle">
+                GOAL 1</div>
               <br>
-              <paragraph>Allow customers to easily find class information and simplify user flow to increasing
+              <p>Allow customers to easily find class information and simplify user flow to increasing
                 engagement.
-              </paragraph>
+              </p>
             </div>
           </div>
         </div>
@@ -166,10 +178,11 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>GOAL 2</subtitle>
+              <div class="subtitle">
+                GOAL 2</div>
               <br>
-              <paragraph>Standardize pages, allowing director and engineer to easily add new classes and locations
-              </paragraph>
+              <p>Standardize pages, allowing director and engineer to easily add new classes and locations
+              </p>
             </div>
           </div>
         </div>
@@ -191,26 +204,26 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>RESEARCH</subtitle>
+              <div class="subtitle"> RESEARCH</div>
               <br>
-              <paragraph>I conducted user interviews and listened to customer service calls. Since we have website
+              <p>I conducted user interviews and listened to customer service calls. Since we have website
                 analytics, I was also able to see what pages and classes were most popular.
-              </paragraph>
+              </p>
             </div>
 
             <div class="block-double">
-              <subtitle>FINDINGS ABOUT CUSTOMERS</subtitle>
+              <div class="subtitle">FINDINGS ABOUT CUSTOMERS</div>
             </div>
 
             <div class="block-double">
-              <paragraph>1. Customers find location pages confusing because they don’t think they need it </paragraph>
+              <p>1. Customers find location pages confusing because they don’t think they need it </p>
             </div>
             <div class="block-double">
-              <paragraph>2. Customers want to quickly find class information for a specific age group + location
-              </paragraph>
+              <p>2. Customers want to quickly find class information for a specific age group + location
+              </p>
             </div>
             <div class="block-double">
-              <paragraph>3. The most frequently visited pages are the location pages and adult class pages</paragraph>
+              <p>3. The most frequently visited pages are the location pages and adult class pages</p>
             </div>
           </div>
         </div>
@@ -224,10 +237,10 @@
         <div class="card">
           <div class="card-content">
             <div class="block-double">
-              <subtitle>EXTRA</subtitle>
+              <div class="subtitle">EXTRA</div>
               <br>
-              <paragraph>I was able to create small illustrations for the website throughout the summer
-              </paragraph>
+              <p>I was able to create small illustrations for the website throughout the summer
+              </p>
             </div>
 
             <div class="card">
@@ -397,10 +410,6 @@ html {
   font-size: 18px !important;
 }
 
-bold {
-  font-weight: 500 !important;
-}
-
 
 .card {
   box-shadow: none !important;
@@ -422,8 +431,8 @@ bold {
   box-shadow: none !important;
 }
 
-head-text {
-  font-family: 'rooney-web', serif;
+.head-text {
+  font-family: "karla";
   font-style: normal;
   font-weight: 400;
   font-size: 90px;
@@ -432,7 +441,7 @@ head-text {
   /* letter-spacing: -0.03em; */
 }
 
-sub-head-text {
+.sub-head-text {
 
   font-family: "rooney-web", serif;
   font-style: normal;
@@ -443,26 +452,9 @@ sub-head-text {
   /* letter-spacing: -0.03em; */
 }
 
-underline {
-  color: black;
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: 2px;
-  text-decoration-color: rgba(0, 0, 0, 0.15);
-  text-underline-offset: 6px;
-}
-
-underline:hover {
-  color: black;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: black;
-  text-underline-offset: 6px;
-  transition: text-decoration-color 0.5s;
-}
 
 
-subtitle {
+.subtitle {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
@@ -472,7 +464,7 @@ subtitle {
   color: black;
 }
 
-project-title {
+.project-title {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 600;

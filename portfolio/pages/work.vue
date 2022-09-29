@@ -23,12 +23,14 @@
           <div class="columns is-gapless is-multiline">
 
           <div class="column is-one-third">
+
+            <NuxtLink to="/projects/artschoolsfbay">
             <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <a href="https://www.qries.com/">
+                 
                     <img src="img/trek.png" alt="trek app">
-      </a>
+                 
                  
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -48,6 +50,7 @@
                 </div>
               </div>
             </div>
+            </NuxtLink>
           </div>
           
           <div class="column is-two-thirds">

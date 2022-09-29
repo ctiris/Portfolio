@@ -5,7 +5,7 @@
     <nav class="navbar is-fixed-top">
       <div class="container is-fluid">
         <div class="navbar-brand">
-          <NuxtLink to="work" class="navbar-item top-logo">
+          <NuxtLink to="/work" class="navbar-item top-logo">
            Iris Chang
           </NuxtLink>
         </div>

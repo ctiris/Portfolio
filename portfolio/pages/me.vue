@@ -2,7 +2,6 @@
     <div>
     <link rel="stylesheet" href="https://use.typekit.net/qpz2fcw.css">
     <div class="container">
-
         <div class="head-text-container">
             <p class="head-text"  style="position:fixed;">This is who I am</p>
         </div>
@@ -327,6 +326,7 @@
       }
   }
   
+ 
   
   .card-image:first-child img {
       border-top-left-radius: 0rem !important;
@@ -335,7 +335,9 @@
       border-bottom-right-radius: 0rem !important;
   }
   
-  
+  .column.is-one-third{
+    background-color: white;
+  }
   
   
   .card {
@@ -410,6 +412,7 @@
       font-size: 50px;
       line-height: 65px;
       text-align: left;
+      z-index: -1;
   }
   
   

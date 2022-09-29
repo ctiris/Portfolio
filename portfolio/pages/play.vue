@@ -19,7 +19,7 @@
         </div>
       <div id="play">
         <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
-          <div class="columns is-gapless is-multiline" id="blur">
+          <div class="columns is-gapless is-multiline">
           <div class="column is-one-third">
             <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
@@ -364,6 +364,9 @@
   
   }
   
+  .column.is-one-third{
+    background-color: white;
+  }
   .card-image:first-child img {
     border-top-left-radius: 0rem !important;
     border-top-right-radius: 0rem !important;
@@ -382,6 +385,7 @@
     font-size: 50px;
     line-height: 65px;
     text-align: left;
+    z-index:-1;
   }
   
   
