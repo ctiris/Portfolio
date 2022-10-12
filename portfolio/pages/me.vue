@@ -9,17 +9,17 @@
 
 
     <div>
-        <div class="scroll-down" id="section04">
+        <!-- <div class="scroll-down" id="section04">
                 <a href="#about"><span></span></a>
-            </div>
+            </div> -->
         <div id="about">
             <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
-                <div class="columns is-gapless is-multiline">
+                <div class="columns is-gapless is-multiline" style="padding-top: 70vh;">
                 <div class="column is-one-third">
                     <div class="card" id="first-card" >
                         <div class="card-image">
                             <figure class="image is-1by1">
-                                <img src="img/eye.png" alt="me">
+                                <img src="/img/eye.png" alt="me">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -38,10 +38,10 @@
                                 </div>
                                 <div class="block-double paragraph" >
                                     <p>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
-                                            <underline>Design | Media Arts</underline>
+                                            <div class="underline">Design | Media Arts</div>
                                         </a>
                                         at UCLA, with a minor in <a href="https://dh.ucla.edu/">
-                                            <underline>Digital Humanities</underline>
+                                            <div class="underline">Digital Humanities</div>
                                         </a>. I mainly practice UX/UI design, visual
                                         design,
                                         and digital art.</p>
@@ -49,10 +49,10 @@
 
                                 <div class="block-double paragraph">
                                     <p>Say hello! <a href="https://jgthms.com">
-                                            <underline>iristchang@g.ucla.edu</underline>
+                                        <div class="underline">iristchang@g.ucla.edu</div>
                                         </a> /
                                         <a href="https://jgthms.com">
-                                            <underline>LinkedIn</underline>
+                                            <div class="underline">LinkedIn</div>
                                         </a>
                                     </p>
                                 </div>
@@ -68,7 +68,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-1by1">
-                                <img src="img/laugh.png" alt="Art School of SF Bay">
+                                <img src="/img/laugh.png" alt="Art School of SF Bay">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -93,7 +93,7 @@
                                         programs
                                         like Adobe Photoshop and Illustrator. Previously, I founded a <a
                                             href="https://www.instagram.com/curiousaboutyou.co/">
-                                            <underline>small business</underline>
+                                            <div class="underline">small business</div>
                                         </a>,
                                         and now I’m creating multidisciplinary works
                                         with all my past experiences in mind.</p>
@@ -108,7 +108,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-1by1">
-                                <img src="img/purp.png" alt="A pin I made!">
+                                <img src="/img/purp.png" alt="A pin I made!">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -134,7 +134,7 @@
                                         programs
                                         like Adobe Photoshop and Illustrator. Previously, I founded a <a
                                             href="https://www.instagram.com/curiousaboutyou.co/">
-                                            <underline>small business</underline>
+                                            <div class="underline">small business</div>
                                         </a>,
                                         and now I’m creating multidisciplinary works
                                         with all my past experiences in mind.</p>
@@ -153,7 +153,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-1by1">
-                                <img src="img/pink.png" alt="A pin I made!">
+                                <img src="/img/pink.png" alt="A pin I made!">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -208,7 +208,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image is-1by1">
-                                <img src="img/yellow.png" alt="A pin I made!">
+                                <img src="/img/yellow.png" alt="A pin I made!">
                             </figure>
                         </div>
                         <div class="card-content">
@@ -287,8 +287,8 @@
       width: 24px;
       height: 24px;
       margin-left: -12px;
-      border-left: 4px solid black;
-      border-bottom: 4px solid black;
+      border-left: 4px solid #2c2c2c;
+      border-bottom: 4px solid #2c2c2c;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       -webkit-animation: sdb04 2s infinite;
@@ -346,6 +346,12 @@
      
   }
   
+  .card-content {
+  
+    padding: 0rem !important;
+    box-shadow: none;
+  
+  }
   .is-64x64 {
       filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
   }
@@ -375,11 +381,11 @@
   }
   
   .grey:hover {
-      color: black;
+      color: #2c2c2c;
   }
   
   .underline {
-      color: black;
+      color: #2c2c2c;
       text-decoration: underline;
       text-decoration-style: dotted;
       text-decoration-thickness: 2px;
@@ -388,10 +394,10 @@
   }
   
   .underline:hover {
-      color: black;
+      color: #2c2c2c;
       text-decoration: underline;
       text-decoration-thickness: 2px;
-      text-decoration-color: black;
+      text-decoration-color: #2c2c2c;
       text-underline-offset: 6px;
       transition: text-decoration-color 0.5s;
   }
@@ -409,9 +415,9 @@
       font-family: 'Karla';
       font-style: normal;
       font-weight: 400;
-      font-size: 50px;
+      font-size: 35px;
       line-height: 65px;
-      text-align: left;
+      /* text-align: center !important; */
       z-index: -1;
   }
   
@@ -423,7 +429,7 @@
       font-size: 28px;
       line-height: 38px;
       letter-spacing: 0.08em;
-      color: black;
+      color: #2c2c2c;
   }
   
   .subtitle {
@@ -468,8 +474,9 @@
       font-size: 18px;
       line-height: 30px;
       letter-spacing: -0.03em;
-      color: black;
+      color: #2c2c2c;
   }
+  
   
   .media-center {
       align-content: center;

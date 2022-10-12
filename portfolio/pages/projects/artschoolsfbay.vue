@@ -6,7 +6,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1">
-          <img src="../../img/trek.png" alt="Placeholder image">
+          <img src="/img/trek.png" alt="Placeholder image">
         </figure>
       </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="card" style="padding-top: 6rem; padding-left: 45vh; padding-right: 45vh">
       <div class="card-content" id="first-card">
         <div class="block-double">
-          <div class ="head-text">Art School of SF Bay</div>
+          <div class ="project-head-text">Art School of SF Bay</div>
         </div>
 
 
@@ -132,7 +132,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-1by1">
-              <img src="/../../img/stressed.png" alt="stressed">
+              <img src="/img/stressed.png" alt="stressed">
             </figure>
           </div>
         </div>
@@ -246,7 +246,7 @@
             <div class="card">
               <div class="card-image">
                 <figure class="image is-3by1">
-                  <img src="../../img/agegroup.png" alt="Placeholder image">
+                  <img src="/img/agegroup.png" alt="Placeholder image">
                 </figure>
               </div>
             </div>
@@ -386,25 +386,7 @@ html {
   opacity: 1;
 }
 
-.text {
 
-  font-family: 'Karla';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 38px;
-  letter-spacing: 0.08em;
-
-
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 .caption {
   font-size: 18px !important;
@@ -431,14 +413,14 @@ html {
   box-shadow: none !important;
 }
 
-.head-text {
+.project-head-text {
   font-family: "karla";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; 
   font-size: 90px;
   line-height: 65px;
-  text-align: center;
-  /* letter-spacing: -0.03em; */
+  text-align: left;
+
 }
 
 .sub-head-text {

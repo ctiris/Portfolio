@@ -14,17 +14,17 @@
   
   
     <div>
-      <div class="scroll-down" id="section04">
+      <!-- <div class="scroll-down" id="section04">
           <a href="#play"><span></span></a>
-        </div>
+        </div> -->
       <div id="play">
         <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
-          <div class="columns is-gapless is-multiline">
+          <div class="columns is-gapless is-multiline" style="padding-top: 70vh;">
           <div class="column is-one-third">
             <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/lilac.gif" alt="Art School of SF Bay">
+                  <img src="/img/lilac.gif" alt="Art School of SF Bay">
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
                     <div class="text">
@@ -50,7 +50,7 @@
             <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <img src="img/prism.gif" alt="trek">
+                  <img src="/img/prism.gif" alt="trek">
   
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -73,7 +73,7 @@
             <div class="card" style=" padding-left: 5px;  padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <img src="img/mascara.gif" alt="mascara">
+                  <img src="/img/mascara.gif" alt="mascara">
   
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -99,7 +99,7 @@
             <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/dream.png" alt="trek">
+                  <img src="/img/dream.png" alt="trek">
   
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -125,7 +125,7 @@
             <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/nobody.png" alt="trek">
+                  <img src="/img/nobody.png" alt="trek">
   
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -152,7 +152,7 @@
             <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/artistsblock.png" alt="trek">
+                  <img src="/img/artistsblock.png" alt="trek">
   
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
@@ -178,7 +178,7 @@
             <div class="card" style=" padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/yor.png" alt="trek">
+                  <img src="/img/yor.png" alt="trek">
                   
                 </figure>
               </div>
@@ -196,7 +196,7 @@
             <div class="card" style=" padding-left: 5px; padding-right: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/gojo.png" alt="fanart">
+                  <img src="/img/gojo.png" alt="fanart">
                 </figure>
               </div>
               <div class="card-content">
@@ -213,7 +213,7 @@
             <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/genshin.png" alt="fanart">
+                  <img src="/img/genshin.png" alt="fanart">
                 </figure>
               </div>
               <div class="card-content">
@@ -230,7 +230,7 @@
             <div class="card" style=" padding-left: 5px; padding-bottom: 10px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/zhongli.png" alt="fanart">
+                  <img src="/img/zhongli.png" alt="fanart">
                 </figure>
               </div>
               <div class="card-content">
@@ -354,13 +354,13 @@
 
   .card {
     box-shadow: none !important;
-    background-color: none !important;
   
   }
   
   .card-content {
-    background-color: transparent;
+
     padding: 0rem !important;
+    box-shadow: none;
   
   }
   
@@ -382,15 +382,15 @@
     font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 65px;
-    text-align: left;
+    /* text-align: left !important; */
     z-index:-1;
   }
   
   
   underline {
-    color: black;
+    color: #2c2c2c;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: 2px;
@@ -399,10 +399,10 @@
   }
   
   underline:hover {
-    color: black;
+    color: #2c2c2c;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: black;
+    text-decoration-color: #2c2c2c;
     text-underline-offset: 6px;
     transition: text-decoration-color 0.5s;
   }
@@ -415,7 +415,7 @@
     font-size: 12px;
     line-height: 38px;
     letter-spacing: 0.1em;
-    color: black;
+    color: #2c2c2c;
   }
   
   project-title {
@@ -425,6 +425,6 @@
     font-size: 32px;
     line-height: 39px;
     letter-spacing: -0.03em;
-    color: black;
+    color: #2c2c2c;
   }
   </style>

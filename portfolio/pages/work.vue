@@ -5,33 +5,27 @@
     <div>
       <div class="head-text-container" style="position:fixed">
         <p class="head-text">
-          Hi! I’m <a href=/me>Iris Chang</a>
-            
-            <br>
-          An undergraduate student at <a href="projects/artschoolsfbay">UCLA</a> interested in <a href=#UXdesigns>UX design
-          </a> and creating beautiful experiences.
+          Hi! I’m <NuxtLink to="/me">Iris Chang</NuxtLink>
+
+          <br>
+          An undergraduate student at UCLA interested in <a href=#UXdesigns>UX design
+          </a> and creating considerate and delightful experiences.
         </p>
       </div>
     </div>
 
     <div>
-      <div class="scroll-down" id="section04">
+      <!-- <div class="scroll-down" id="section04">
           <a href="#UXdesigns"><span></span></a>
-        </div>
-      <div id="UXdesigns" style="position:relative">
+        </div> -->
+      <div id="UXdesigns" style="position:relative; padding-top: 70vh;">
         <!-- <div class="columns is-gapless is-multiline" id="blur"> -->
-          <div class="columns is-gapless is-multiline">
-
+        <div class="columns is-gapless is-multiline">
           <div class="column is-one-third">
-
-            <NuxtLink to="/projects/artschoolsfbay">
             <div class="card" id="first-card" style=" padding-right: 5px; padding-bottom: 5px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                 
-                    <img src="img/trek.png" alt="trek app">
-                 
-                 
+                  <img src="/img/trek.png" alt="trek app">
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
                     <div class="text">
@@ -50,39 +44,41 @@
                 </div>
               </div>
             </div>
-            </NuxtLink>
+
           </div>
-          
+
           <div class="column is-two-thirds">
-            <div class="card" style=" padding-left: 5px; padding-bottom: 5px;">
-              <div class="card-image">
-                <figure class="image is-2by1">
-                  <img src="img/artschoolsfbay.png" alt="artschoolsfbay">
-                  <div class="overlay-bg"> </div>
-                  <div class="overlay-text">
-                    <div class="text">
-                      ART SCHOOL OF SF BAY
-                      <br>
-                      <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> UI/UX Design</div>
+            <NuxtLink to="/projects/artschoolsfbay">
+              <div class="card" style=" padding-left: 5px; padding-bottom: 5px;">
+                <div class="card-image">
+                  <figure class="image is-2by1">
+                    <img src="/img/artschoolsfbay.png" alt="artschoolsfbay">
+                    <div class="overlay-bg"> </div>
+                    <div class="overlay-text">
+                      <div class="text">
+                        ART SCHOOL OF SF BAY
+                        <br>
+                        <div style=" font-size: 18px; font-weight: 400; letter-spacing: 0em"> UI/UX Design</div>
+                      </div>
                     </div>
-                  </div>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <!-- <p class="subtitle is-6"><subtitle>DESIGN CATEGORY</subtitle></p> -->
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </NuxtLink>
           </div>
 
           <div class="column is-two-thirds">
             <div class="card" style=" padding-right: 5px; padding-top: 5px;">
               <div class="card-image">
                 <figure class="image is-2by1">
-                  <img src="img/trek.png" alt="Art School of SF Bay">
+                  <img src="/img/trek.png" alt="Art School of SF Bay">
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
                     <div class="text">
@@ -107,7 +103,7 @@
             <div class="card" style=" padding-left: 5px; padding-top: 5px;">
               <div class="card-image">
                 <figure class="image is-1by1">
-                  <img src="img/artschoolsfbay.png" alt="trek">
+                  <img src="/img/artschoolsfbay.png" alt="trek">
                   <div class="overlay-bg"> </div>
                   <div class="overlay-text">
                     <div class="text">
@@ -177,7 +173,7 @@ html {
   scroll-behavior: smooth;
 }
 
-
+/* 
 #section04 {
   padding-top: 70vh;
 }
@@ -190,8 +186,8 @@ html {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 4px solid black;
-  border-bottom: 4px solid black;
+  border-left: 4px solid #2C2C2C;
+  border-bottom: 4px solid #2C2C2C;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -227,8 +223,22 @@ html {
   40% {
     transform: rotate(-45deg) translate(0, 0);
   }
-}
+} */
+.card{
+  box-shadow:none !important;
 
+}
+  
+  .card-content {
+    background-color: white;
+    padding: 0rem !important;
+    box-shadow: none;
+  
+  }
+a {
+  color: #red;
+
+}
 
 .overlay-bg {
   position: absolute;
@@ -244,7 +254,7 @@ html {
 }
 
 .card-image:first-child:hover .overlay-bg {
-  opacity: .75;
+  opacity: .9;
 }
 
 
@@ -298,14 +308,14 @@ html {
   letter-spacing: 0.08em;
 
 
-  color: black;
+  color: #2C2C2C !important;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /* text-align: center; */
+  text-align: center;
 }
 
 .caption {
@@ -316,12 +326,6 @@ html {
   font-weight: 500 !important;
 } */
 
-
-.card {
-  box-shadow: none !important;
-  background-color: none !important;
-
-}
 
 .card-content {
   background-color: white;
@@ -341,20 +345,20 @@ html {
 
   padding: 28vh !important;
 
-  /* font-family: 'rooney-web', serif; */
   font-family: 'Karla';
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 35px;
   line-height: 65px;
-  text-align: left;
+  text-align: left !important;
   letter-spacing: -0.03em;
+  color: #2c2c2c;
 }
 
 
 
 .underline {
-  color: black;
+  color: #2C2C2C;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-thickness: 2px;
@@ -363,10 +367,10 @@ html {
 }
 
 .underline:hover {
-  color: black;
+  color: #2C2C2C;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: black;
+  text-decoration-color: #2C2C2C;
   text-underline-offset: 6px;
   transition: text-decoration-color 0.5s;
 }
@@ -379,7 +383,7 @@ html {
   font-size: 12px;
   line-height: 38px;
   letter-spacing: 0.1em;
-  color: black;
+  color: #2C2C2C;
 }
 
 /* project-title {
@@ -389,6 +393,6 @@ html {
   font-size: 32px;
   line-height: 39px;
   letter-spacing: -0.03em;
-  color: black;
+  color: #2C2C2C;
 } */
 </style>
