@@ -6,7 +6,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1">
-          <img src="/img/trek.png" alt="Placeholder image">
+          <img src="/img/artschoolbanner.png" alt="Placeholder image">
         </figure>
       </div>
     </div>
@@ -15,16 +15,17 @@
     <div class="card" style="padding-top: 6rem; padding-left: 45vh; padding-right: 45vh">
       <div class="card-content" id="first-card">
         <div class="block-double">
-          <div class ="project-head-text">Art School of SF Bay</div>
+          <div class ="project-head-text">Art School of SF Bay: <br>
+            Redesigning the mobile website to make it easier for people to
+            find their perfect class
+          </div>
         </div>
 
 
-        <div class="block-double">
+        <!-- <div class="block-double">
           <div class="sub-head-text">Redesigning the mobile website to make it easier for people to
             find their perfect class</div>
-        </div>
-
-
+        </div> -->
 
 
 
@@ -58,7 +59,6 @@
               <div class="subtitle">
                 TOOLS
               </div>
-              <br>
               <p>Figma
                 <br>
                 InVision
@@ -74,7 +74,6 @@
               <div class="subtitle">
                 ROLE
               </div>
-              <br>
               <p>UI/UX Designer
               </p>
             </div>
@@ -91,7 +90,6 @@
               <div class="subtitle">
               BRIEF
             </div>
-              <br>
               <p>I was tasked to redesign the mobile class-related pages in order to streamline the class search
                 experience.
               </p>
@@ -117,7 +115,6 @@
               <div class="subtitle">
               PROBLEM
             </div>
-              <br>
               <p>The director of the art school has many people calling her about general art class questions on
                 a daily basis. There are so many customers contacting her every day, making it hard for her to focus on
                 large scale goals for the school.
@@ -165,7 +162,6 @@
             <div class="block-double">
               <div class="subtitle">
                 GOAL 1</div>
-              <br>
               <p>Allow customers to easily find class information and simplify user flow to increasing
                 engagement.
               </p>
@@ -180,7 +176,6 @@
             <div class="block-double">
               <div class="subtitle">
                 GOAL 2</div>
-              <br>
               <p>Standardize pages, allowing director and engineer to easily add new classes and locations
               </p>
             </div>
@@ -205,7 +200,6 @@
           <div class="card-content">
             <div class="block-double">
               <div class="subtitle"> RESEARCH</div>
-              <br>
               <p>I conducted user interviews and listened to customer service calls. Since we have website
                 analytics, I was also able to see what pages and classes were most popular.
               </p>
@@ -238,7 +232,6 @@
           <div class="card-content">
             <div class="block-double">
               <div class="subtitle">EXTRA</div>
-              <br>
               <p>I was able to create small illustrations for the website throughout the summer
               </p>
             </div>
@@ -276,12 +269,6 @@ html {
 }
 
 
-
-
-
-
-
-
 .caption {
   font-size: 18px !important;
 }
@@ -311,21 +298,23 @@ html {
   font-family: "karla";
   font-style: normal;
   font-weight: 400; 
-  font-size: 90px;
-  line-height: 65px;
+  font-size: 35px;
   text-align: left;
+  letter-spacing: -0.03em;
+  color: black;
+  line-height: 1.5;
 
 }
 
 .sub-head-text {
-
-  font-family: "rooney-web", serif;
+  font-family: "karla";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  /* line-height: 40px; */
+  color: black;
   text-align: center;
-  /* letter-spacing: -0.03em; */
+  letter-spacing: -0.03em;
+  line-height: 1.5;
 }
 
 
@@ -335,9 +324,9 @@ html {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 38px;
+  line-height: 1.5;
   letter-spacing: 0.1em;
-  color: black;
+  color: rgba(0, 0, 0, 0.35);
 }
 
 .project-title {
@@ -345,8 +334,15 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 39px;
+  line-height: 1.5;
   letter-spacing: -0.03em;
   color: black;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 16px;
+  color: black;
+
 }
 </style>

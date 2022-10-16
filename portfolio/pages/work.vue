@@ -100,6 +100,7 @@
           </div>
 
           <div class="column is-one-third">
+            <NuxtLink to="/play">
             <div class="card" style=" padding-left: 5px; padding-top: 5px;">
               <div class="card-image">
                 <figure class="image is-1by1">
@@ -122,6 +123,7 @@
                 </div>
               </div>
             </div>
+          </NuxtLink>
           </div>
 
         </div>
@@ -236,7 +238,8 @@ html {
   
   }
 a {
-  color: #red;
+  color: red;
+  white-space: nowrap;
 
 }
 
@@ -349,7 +352,8 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 65px;
+  /* line-height: 65px; */
+  line-height: 1.4;
   text-align: left !important;
   letter-spacing: -0.03em;
   color: #2c2c2c;

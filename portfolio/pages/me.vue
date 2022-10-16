@@ -39,8 +39,7 @@
                                 <div class="block-double paragraph" >
                                     <p>Currently, I’m pursuing a B.A. in <a href="https://dma.ucla.edu/">
                                             <div class="underline">Design | Media Arts</div>
-                                        </a>
-                                        at UCLA, with a minor in <a href="https://dh.ucla.edu/">
+                                        </a> at UCLA, with a minor in <a href="https://dh.ucla.edu/">
                                             <div class="underline">Digital Humanities</div>
                                         </a>. I mainly practice UX/UI design, visual
                                         design,
@@ -48,11 +47,8 @@
                                 </div>
 
                                 <div class="block-double paragraph">
-                                    <p>Say hello! <a href="https://jgthms.com">
-                                        <div class="underline">iristchang@g.ucla.edu</div>
-                                        </a> /
-                                        <a href="https://jgthms.com">
-                                            <div class="underline">LinkedIn</div>
+                                    <p>Say hello! <a href="https://jgthms.com"> <div class="underline">iristchang@g.ucla.edu</div>
+                                        </a> / <a href="https://jgthms.com"> <div class="underline">LinkedIn</div>
                                         </a>
                                     </p>
                                 </div>
@@ -387,6 +383,7 @@
   .underline {
       color: #2c2c2c;
       text-decoration: underline;
+      display: inline !important;
       text-decoration-style: dotted;
       text-decoration-thickness: 2px;
       text-decoration-color: rgba(0, 0, 0, 0.15);
